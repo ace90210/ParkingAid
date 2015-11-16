@@ -1,0 +1,26 @@
+android:
+  components:
+    - android-19
+    - build-tools-19.1.0
+    - platform-tools
+    - tools
+
+branches:
+  except:
+    - /master/
+
+  only:
+    - /development/
+    - /release\/\w+/
+    - /hotfix\/\w+/
+    - /feature\/\w+/
+    - /support\/\w+/
+
+language: android
+
+notifications:
+  email:
+    recipients:
+      - a.melbourne@uea.ac.uk
+      - barry.wright@uea.ac.uk
+      - s.collyer@uea.ac.uk
