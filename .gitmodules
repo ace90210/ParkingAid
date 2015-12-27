@@ -1,0 +1,3 @@
+[submodule "Mother"]
+	path = Mother
+	url = https://github.com/TruckersInSpace/Mother.git
