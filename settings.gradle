@@ -1,1 +1,1 @@
-include ':bishop'
+include ':bishop', ':Mother:mother'
