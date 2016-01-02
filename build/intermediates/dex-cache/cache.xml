@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-c787882050aaa249496c8bd9f6c9a91c245897b6.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-f8ce0ed21362fdec1bc0e4efb465dc860954ddb4.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\ParkingAid.Mother\mother\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e22ac6d10f8ace230eefc1c813eb8701aee91675">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-cbb94fa8e60ba89e2560d54f5592ea673b33e3d3.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-84661b452f7e4cd8c9d4be9ad90d56636d23d82b.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-c325b937819514f61fa605b3410e4655c9ca9250.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-3eca2d71906770525e1dd63bc54ff3df28dca368.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-e7d0bbf6b80241534d965f0b5d80979b216e074a.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="H:\Users\Barry\Documents\ParkingAid\bishop\build\intermediates\pre-dexed\debug\classes-11aac880ba4144309c4416353d38de12cc10f3ca.jar" />
+    </item>
+
+</items>

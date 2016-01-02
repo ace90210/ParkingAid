@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mother.iml" filepath="$PROJECT_DIR$/Mother.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mother/Mother-Mother.iml" filepath="$PROJECT_DIR$/Mother/Mother-Mother.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bishop/bishop.iml" filepath="$PROJECT_DIR$/bishop/bishop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mother/mother/mother.iml" filepath="$PROJECT_DIR$/Mother/mother/mother.iml" />
+    </modules>
+  </component>
+</project>
