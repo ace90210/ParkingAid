@@ -9,11 +9,17 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'com.google.android.gms:play-services-maps:8.4.0'
-	compile project(':Mother:mother')
+    compile project(':Mother:mother')
 }

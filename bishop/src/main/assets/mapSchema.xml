@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<mapData xmlns:xsi="http://ww.w3.org/2001/XMLSchema-instance">
+	<dataRow>
+		<type>academic_dept</type>	
+		<name>British Centre for Literary Translation</name>	
+		<lat>52.62218</lat>	
+		<long>1.24074</long>	
+		<id>CRU</id>	
+		<fac>CRU</fac>
+		<description>some html</description>
+		<abbr>CRU</abbr>
+		<openingtimes>Term time</openingtimes>		
+		<image>https://www.uea.ac.uk/polopoly_fs/1.255280!imageselect/bobchampweb.jpg</image>
+		<link>http://theenterprisecentre.uea.ac.uk/</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>	
+		<name>British Centre for Literary Translation</name>	
+		<lat>52.62218</lat>	
+		<long>1.24074</long>	
+		<id>CRU</id>	
+		<fac>CRU</fac>
+		<description>some html</description>
+		<abbr>CRU</abbr>
+		<openingtimes>Term time</openingtimes>		
+		<image>https://www.uea.ac.uk/polopoly_fs/1.255280!imageselect/bobchampweb.jpg</image>
+		<link>http://theenterprisecentre.uea.ac.uk/</link>
+	</dataRow>
+</mapData>

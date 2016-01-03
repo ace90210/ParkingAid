@@ -1,0 +1,2315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Zuckerman Institute for Connective Environmental Research</name>
+		<lat>52.6217069605389</lat>
+		<long>1.23765707015991</long>
+		<id>ZICER</id>
+		<fac>SCI</fac>
+		<description>The &lt;a href='http://www.uea.ac.uk/zicer/'&gt;Zuckerman Institute for Connective Environmental Research&lt;/a&gt; (ZICER) is home to international research centres, the &lt;a href='http://www.tyndall.ac.uk/'&gt;Tyndall Centre for Climate Change&lt;/a&gt;, &lt;a href='http://www.uea.ac.uk/env/cserge/'&gt;CSERGE&lt;/a&gt; and the &lt;a href='http://www.uea.ac.uk/env/cer/'&gt;Centre for Environmental Risk&lt;/a&gt;. The ZICER building itself is also a innovation in environmental friendly architecture. </description>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110683.LATEST!imageManager/244206996.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>British Centre for Literary Translation</name>
+		<lat>52.62218</lat>
+		<long>1.24074</long>
+		<fac>HUM</fac>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Centre for East Anglian Studies</name>
+		<lat>52.62231</lat>
+		<long>1.24077</long>
+		<fac>HUM</fac>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Climatic Research Unit</name>
+		<lat>52.621784</lat>
+		<long>1.238556</long>
+		<id>CRU</id>
+		<description>The &lt;a href='http://www.cru.uea.ac.uk/'&gt;Climatic Research Unit&lt;/a&gt;, part of the School of Environmental Sciences, is widely recognised as one of the world's leading institutions concerned with the study of natural and anthropogenic climate change.</description>
+		<abbr>CRU</abbr>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>INTO University of East Anglia</name>
+		<lat>52.623531</lat>
+		<long>1.24535</long>
+		<id>INTO</id>
+		<description>&lt;a href='http://www.into.uk.com/uea'&gt;INTO University of East Anglia&lt;/a&gt; is a state of the art, purpose built Centre, which prepares international students for entry onto degree courses at the University. The Centre comprises modern teaching and accomodation facilities over five stories.  </description>
+		<abbr>INTO</abbr>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110651.LATEST!INTO%201.jpg</image>
+		<link>http://www.into.uk.com/uea</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>James Platt Language Centre</name>
+		<lat>52.62186</lat>
+		<long>1.24027</long>
+		<fac>HUM</fac>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>John Innes Centre</name>
+		<lat>52.621315</lat>
+		<long>1.222208</long>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Norwich Business School</name>
+		<lat>52.62204</lat>
+		<long>1.2362</long>
+		<id>NBS</id>
+		<fac>SSF</fac>
+		<description>Norwich Business School embraces the University's motto of ‘Do Different' by delivering innovative and pioneering courses at facilities in both Norwich and London. Our excellent teaching department is underpinned by cutting edge research, which ensures we're highly relevant to business needs now and in the future. </description>
+		<abbr>NBS</abbr>
+		<link>http://www.uea.ac.uk/nbs</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Norwich Medical School</name>
+		<lat>52.6218844450503</lat>
+		<long>1.23491853475571</long>
+		<id>MED</id>
+		<fac>FMH</fac>
+		<description>The Norwich Medical School is a leader in preparing students to become highly competent and confident doctors. We are proud of our reputation as one of the very best schools of medicine in the country. We want you to be the best too – by learning and developing first class clinical skills and nurturing excellence in scientific understanding.</description>
+		<abbr>MED</abbr>
+		<link>http://www.uea.ac.uk/medicine</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Norwich Research Park</name>
+		<lat>52.624611</lat>
+		<long>1.224031</long>
+		<id>NRP</id>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Art, Media and American Studies</name>
+		<lat>52.62205</lat>
+		<long>1.24054</long>
+		<id>AMA</id>
+		<fac>HUM</fac>
+		<description>The School of Art, Media and American Studies brings together world-leading expertise in the visual arts, in film, television and media studies and in the literature, history, and culture of the United States, and the Atlantic and Pacific worlds.</description>
+		<abbr>AMA</abbr>
+		<link>https://www.uea.ac.uk/ama</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Biological Sciences</name>
+		<lat>52.62073</lat>
+		<long>1.23655</long>
+		<id>BIO</id>
+		<fac>SCI</fac>
+		<description>The School of Biological Sciences is a vibrant and friendly academic community firmly embedded in the internationally renowned Norwich Research Park. It boasts extensive state-of-the-art research facilities as well as modern teaching laboratories.</description>
+		<abbr>BIO</abbr>
+		<link>http://www.uea.ac.uk/biological-sciences</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Chemistry</name>
+		<lat>52.621536</lat>
+		<long>1.239213</long>
+		<id>CHE</id>
+		<fac>SCI</fac>
+		<description>The School of Chemistry prides itself on research excellence across its spectrum of activities, from synthetic chemistry and drug discovery to spectroscopy and analytical and biophysical chemistry, as confirmed by successive Research Assessment Exercises.</description>
+		<abbr>CHE</abbr>
+		<link>http://www.uea.ac.uk/chemistry</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Computing Sciences</name>
+		<lat>52.621052</lat>
+		<long>1.237673</long>
+		<id>CMP</id>
+		<fac>SCI</fac>
+		<description>The School of Computing Sciences is one of the largest and most experienced Schools of Computing Sciences in the UK, expertly blending excellent teaching, research, facilities and exciting course modules to offer a dynamic programme targeted at the job market.</description>
+		<abbr>CMP</abbr>
+		<link>http://www.uea.ac.uk/computing</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Economics</name>
+		<id>ECO</id>
+		<fac>SSF</fac>
+		<description>The School of Economics proudly combines a reputation for internationally renowned research and unparalleled academic support to its students. Always pursuing a research-inspired approach, we are committed to offering an outstanding academic experience that provides a platform to fully explore the influence of economic analysis.</description>
+		<abbr>ECO</abbr>
+		<link>http://www.uea.ac.uk/economics</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Education and Lifelong Learning</name>
+		<lat>52.621639</lat>
+		<long>1.237255</long>
+		<id>EDU</id>
+		<fac>SSF</fac>
+		<description>The School was ranked joint 3rd for Teaching and joint 5th for overall satisfaction in the 2012 National Student Survey.</description>
+		<abbr>EDU</abbr>
+		<link>http://www.uea.ac.uk/education</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Engineering</name>
+		<fac>SCI</fac>
+		<link>http://www.uea.ac.uk/engineering</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Environmental Sciences</name>
+		<lat>52.621433</lat>
+		<long>1.23822</long>
+		<id>ENV</id>
+		<fac>SCI</fac>
+		<description>The School of Environmental Sciences is one of the longest established, largest and most fully developed Schools of Environmental Sciences in Europe. Our holistic approach to teaching and research, integrating physical, chemical, biological, social and geotechnical sciences into the study of natural and human environments, is truly a modern philosophy for the new millennium.</description>
+		<abbr>ENV</abbr>
+		<link>http://www.uea.ac.uk/environmental-sciences</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>History</name>
+		<lat>52.62211</lat>
+		<long>1.24053</long>
+		<id>HIS</id>
+		<fac>HUM</fac>
+		<description>Recognised as a leading department within the UK, History at UEA has a chronological range from the collapse of the Roman empire to the present day, a geographical scope covering Europe, Africa, the Middle East, North America and the Caribbean, and experts in political, economic, social, cultural, environmental, diplomatic and intellectual history.</description>
+		<abbr>HIS</abbr>
+		<link>https://www.uea.ac.uk/history</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of International Development</name>
+		<lat>52.62194</lat>
+		<long>1.24033</long>
+		<id>DEV</id>
+		<fac>SSF</fac>
+		<description>The School of International Development (DEV) at the University of East Anglia is a leading global centre of excellence in research and teaching in international development. Read more about the school.</description>
+		<abbr>DEV</abbr>
+		<link>http://www.uea.ac.uk/international-development</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Politics, Philosophy, Language and Communication Studies</name>
+		<lat>52.62189</lat>
+		<long>1.24035</long>
+		<id>PPL</id>
+		<fac>HUM</fac>
+		<description>The School brings together staff and students studying a wide range of subjects including politics, international relations, broadcast journalism, media, public policy, philosophy, language competency, intercultural communication and translation studies</description>
+		<abbr>PPL</abbr>
+		<link>https://www.uea.ac.uk/ppl</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Literature, Drama and Creative Writing</name>
+		<lat>52.62224</lat>
+		<long>1.24083</long>
+		<id>LDC</id>
+		<fac>HUM</fac>
+		<description>The School of Literature, Drama and Creative Writing at the University of East Anglia has a long-established international reputation in literary studies. World famous for its pioneering courses in creative writing, it is also home to prize-winning scholars and translators of literature and drama from all periods.</description>
+		<abbr>LDC</abbr>
+		<link>http://www.uea.ac.uk/literature</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Mathematics</name>
+		<lat>52.62101</lat>
+		<long>1.23769</long>
+		<id>MTH</id>
+		<fac>SCI</fac>
+		<description>The School of Mathematics at UEA is a flourishing department committed to excellence in teaching and research.</description>
+		<abbr>MTH</abbr>
+		<link>http://www.uea.ac.uk/mathematics</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Natural Sciences</name>
+		<fac>SCI</fac>
+		<description>Studying Natural sciences is an ideal way to combine interests from more than one area of science.</description>
+		<link>http://www.uea.ac.uk/naturalsciences</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Health Sciences</name>
+		<lat>52.61961</lat>
+		<long>1.22324</long>
+		<id>HSC</id>
+		<fac>FMH</fac>
+		<description>The School of Health Sciences offers a superb learning environment that enables students to fulfil their potential and ensures our graduates are fit for practice in the modern and ever-changing health and social care sector.</description>
+		<abbr>HSC</abbr>
+		<link>https://www.uea.ac.uk/health-sciences</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Pharmacy</name>
+		<lat>52.62154</lat>
+		<long>1.2395</long>
+		<id>PHA</id>
+		<fac>SCI</fac>
+		<description>The School was founded in 2003 and has quickly risen to become one of the top pharmacy schools in the country, number one in the Guardian University Guide (2013).  Our Pharmacy degree is highly acclaimed for its innovative content and teaching methods and was reaccrediated by the GPhC in 2012 with no conditions or recommendations.</description>
+		<abbr>PHA</abbr>
+		<link>http://www.uea.ac.uk/pharmacy</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Psychology</name>
+		<lat>52.62137</lat>
+		<long>1.23732</long>
+		<id>PSY</id>
+		<fac>SSF</fac>
+		<description>We are the first new school of Psychology in a research-intensive UK university for many years, but with an already-thriving British Psychological Society accredited degree programme that is consistently rated most highly by our students. Our teaching is research-led, with internationally-renowned researchers sharing the excitement of new discoveries in psychological science that impact upon how we understand each other and the world in which we live.</description>
+		<abbr>PSY</abbr>
+		<link>http://www.uea.ac.uk/psychology</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>School of Social Work</name>
+		<lat>52.62156</lat>
+		<long>1.23557</long>
+		<id>SWK</id>
+		<fac>SSF</fac>
+		<description>The School of Social Work is an internationally renowned academic department dedicated to research and teaching. We have a strong interdisciplinary focus with a reputation for policy relevant empirical research.</description>
+		<abbr>SWK</abbr>
+		<link>http://www.uea.ac.uk/socialwork</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Law School</name>
+		<lat>52.625523</lat>
+		<long>1.236653</long>
+		<id>LAW</id>
+		<fac>SSF</fac>
+		<description>The Law School is renowned for its high quality of courses and internationally recognised research, as well as providing an intimate, student focused experience.</description>
+		<link>https://www.uea.ac.uk/law</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Graduate School</name>
+		<lat>52.621727</lat>
+		<long>1.222765</long>
+		<id>GS</id>
+		<fac>SSF</fac>
+		<description>The Faculty of Social Science (SSF) Graduate School at the University of East Anglia (UEA) provides a vibrant and interdisciplinary research and training environment for postgraduate research (PGR) students.</description>
+		<link>https://www.uea.ac.uk/social-sciences/graduate-school</link>
+	</dataRow>
+	<dataRow>
+		<type>academic_dept</type>
+		<name>Interdisciplinary Institute for the Humanities</name>
+		<lat>52.620696</lat>
+		<long>1.241978</long>
+		<id>IIH</id>
+		<description>We provide an intellectual home for those activities in the Faculty of Arts and Humanities which cross disciplinary boundaries, including the Centre for Japanese Studies (CJS) and the East Anglian Film Archive (EAFA).</description>
+		<link>https://www.uea.ac.uk/humanities</link>
+	</dataRow>
+	<dataRow>
+		<type>acc_fac</type>
+		<name>Lecture Theatres 1-4</name>
+		<lat>52.621258</lat>
+		<long>1.240329</long>
+	</dataRow>
+	<dataRow>
+		<type>acc_fac</type>
+		<name>UEA Library</name>
+		<lat>52.620899</lat>
+		<long>1.240648</long>
+		<description>The Library plays an important part in the life of every student. The Library contains over 800,000 books and journals, 1,200 study spaces, over 260 computers for student use and 24 hour open access to the IT facility.</description>
+		<abbr>LIB</abbr>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110677.LATEST!imageManager/1617582178.jpg</image>
+		<link>https://www.uea.ac.uk/is/lib</link>
+	</dataRow>
+	<dataRow>
+		<type>acc_fac</type>
+		<name>Study Abroad</name>
+		<lat>52.62189</lat>
+		<long>1.24033</long>
+		<description>The Study Abroad Office has a team of staff dedicated to supporting the needs of all students interested in spending a period abroad either here at UEA or on exchange with one of our partners. We look forward to meeting you in our office.</description>
+		<image>http://www.uea.ac.uk/polopoly_fs/1.211814!imageManager/market-small.jpg</image>
+		<link>http://www.uea.ac.uk/study/international/study-abroad</link>
+	</dataRow>
+	<dataRow>
+		<type>acc_fac</type>
+		<name>International Office</name>
+		<lat>52.62167</lat>
+		<long>1.23723</long>
+		<description>The University of East Anglia has a student population of 15,000 and is home to more than 3500 students from outside the UK. International students are attracted to our top quality undergraduate (Bachelor) and postgraduate (Masters and PhD) studies in popular subjects ranging from social sciences and humanities to life, natural and health sciences. Our world class academic staff bring the courses to life and help prepare our graduates for a dynamic future.</description>
+		<link>http://www.uea.ac.uk/study/international</link>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62082604</lat>
+		<long>1.234610081</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.6204157</lat>
+		<long>1.235570312</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62051014</lat>
+		<long>1.235795617</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62143503</lat>
+		<long>1.235672235</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62219708</lat>
+		<long>1.23650372</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62209938</lat>
+		<long>1.236798763</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62134059</lat>
+		<long>1.237737536</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62207984</lat>
+		<long>1.238440275</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62178675</lat>
+		<long>1.239084005</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62210264</lat>
+		<long>1.240022779</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62296236</lat>
+		<long>1.242190003</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62176395</lat>
+		<long>1.244174838</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62324893</lat>
+		<long>1.24591291</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62327499</lat>
+		<long>1.246594191</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62419005</lat>
+		<long>1.24571979</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.6244701</lat>
+		<long>1.245478392</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62514417</lat>
+		<long>1.24093473</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.62128197</lat>
+		<long>1.24065578</long>
+	</dataRow>
+	<dataRow>
+		<type>accessible_parking</type>
+		<name> </name>
+		<lat>52.61980343</lat>
+		<long>1.223060489</long>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Accommodation Office</name>
+		<lat>52.621039</lat>
+		<long>1.244202</long>
+		<description>Accommodation Office - Nelson Court room 0.353</description>
+		<link>https://portal.uea.ac.uk/accommodation</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Accommodation Office</name>
+		<lat>52.621039</lat>
+		<long>1.244202</long>
+		<description>Accommodation Office - Nelson Court room 0.353</description>
+		<link>https://portal.uea.ac.uk/accommodation</link>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Britten House</name>
+		<lat>52.622128</lat>
+		<long>1.244792</long>
+		<id>132</id>
+		<description>Our newest residences, &lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;&lt;strong&gt;Britten, Browne, Colman, Kett, Paston &lt;/strong&gt;and&lt;strong&gt; Victory&lt;/strong&gt;&lt;/a&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.  </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Browne House</name>
+		<lat>52.622547</lat>
+		<long>1.247329</long>
+		<id>127</id>
+		<description>Our newest residences, &lt;strong&gt;&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;Britten, Browne, Colman, Kett, Paston and Victory&lt;/a&gt;&lt;/strong&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.  </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Colman House (Block G)</name>
+		<lat>52.621609</lat>
+		<long>1.245607</long>
+		<id>126</id>
+		<description>Our newest residences, &lt;strong&gt;Britten, Browne, Colman, Kett&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;, Paston &lt;/a&gt;&lt;/strong&gt;&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;and&lt;strong&gt; Victory&lt;/strong&gt;&lt;/a&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner. </description>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110659.LATEST!imageManager/813258615.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Colman House (Block F)</name>
+		<lat>52.6213210513655</lat>
+		<long>1.24686777591705</long>
+		<id>125</id>
+		<description>Our newest residences, &lt;strong&gt;Britten, Browne, Colman, Kett&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;, Paston &lt;/a&gt;&lt;/strong&gt;&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;and&lt;strong&gt; Victory&lt;/strong&gt;&lt;/a&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.</description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Constable Terrace</name>
+		<lat>52.621407</lat>
+		<long>1.234353</long>
+		<id>107</id>
+		<description>Constable Terrace offers rooms arranged mainly in ten-person houses, with a large kitchen and dining area on the ground floor.</description>
+		<link>http://www.uea.ac.uk/accommodation/student+residences/campusensuite</link>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Family Accomodation</name>
+		<lat>52.620365</lat>
+		<long>1.241316</long>
+		<id>104</id>
+		<description>UEA owns and maintains 46 two-bedroom, centrally-heated houses, to let to UEA students who have children. For more information please visit &lt;a href='http://www.uea.ac.uk/accommodation/studentswithfamilies'&gt;Students with families&lt;/a&gt; </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Kett House</name>
+		<lat>52.622894</lat>
+		<long>1.247125</long>
+		<id>128</id>
+		<description>Our newest residences, &lt;strong&gt;&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;Britten, Browne, Colman, Kett, Paston and Victory&lt;/a&gt;&lt;/strong&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.  </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Nelson Court</name>
+		<lat>52.621543</lat>
+		<long>1.244226</long>
+		<id>103</id>
+		<description>&lt;a href='http://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;Nelson Court&lt;/a&gt; offers rooms arranged mainly in ten-person houses, with a large kitchen and dining area on the ground floor.&lt;br&gt;  </description>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110658.LATEST!imageManager/3332993247.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Norfolk Terrace</name>
+		<lat>52.620342</lat>
+		<long>1.237271</long>
+		<id>106</id>
+		<description>Rooms in the architecturally unique ziggurats of &lt;a href='http://www.uea.ac.uk/accommodation/student+residences/stadardrooms'&gt;Norfolk and Suffolk Terrace&lt;/a&gt; are arranged in flats of up to 12 rooms, each with own washbasin, and each flat has a large kitchen/diner overlooking the broad. Norfolk and Suffolk terrace have been recently refurbished to upgrade the shower and toilet facilities as well as the study bedrooms.</description>
+		<image>http://www.uea.ac.uk/polopoly_fs/1.110660!imageManager/1847405062.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Orwell Close</name>
+		<lat>52.622089</lat>
+		<long>1.247324</long>
+		<id>101</id>
+		<description>100 standard rooms are available in &lt;a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html'&gt;Orwell Close&lt;/a&gt; and &lt;a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html'&gt;Wolfson Close&lt;/a&gt;. The rooms are arranged in flats of between 5 and 12 rooms, and the size of the kitchen/diner reflects the number of people sharing. Please note these rooms do not have washbasins.</description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Paston House</name>
+		<lat>52.622589</lat>
+		<long>1.245017</long>
+		<id>130</id>
+		<description>Our newest residences, &lt;strong&gt;&lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;Britten, Browne, Colman, Kett, Paston&lt;/a&gt;&lt;/strong&gt; &lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;and &lt;strong&gt;Victory&lt;/strong&gt;&lt;/a&gt; all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.  </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Suffolk Terrace</name>
+		<lat>52.620174</lat>
+		<long>1.240125</long>
+		<id>105</id>
+		<description>Rooms in the architecturally unique ziggurats of &lt;a href='http://www.uea.ac.uk/accommodation/student+residences/stadardrooms'&gt;Norfolk and Suffolk Terrace&lt;/a&gt; are arranged in flats of up to 12 rooms, each with own washbasin, and each flat has a large kitchen/diner overlooking the broad. Norfolk and Suffolk terrace have been recently refurbished to upgrade the shower and toilet facilities as well as the study bedrooms. </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>University Village</name>
+		<lat>52.628235</lat>
+		<long>1.23719</long>
+		<description>The &lt;a href='http://www.ueaaccommodation.com/mediaimages/gallery/village/village.html'&gt;&lt;strong&gt;University Village&lt;/strong&gt;&lt;/a&gt;, located just across the road from the main University entrance, offers 700 en-suite rooms in a group of 10 buildings, and is popular with students because of its sense of community. </description>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110662.LATEST!imageManager/1997784573.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Pine - University Village</name>
+		<lat>52.6293804731248</lat>
+		<long>1.23513579368591</long>
+		<id>111</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Willow - University Village</name>
+		<lat>52.6291232458247</lat>
+		<long>1.23496949672699</long>
+		<id>110</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Ash - University Village</name>
+		<lat>52.6280259427649</lat>
+		<long>1.23623549938202</long>
+		<id>123</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Beech - University Village</name>
+		<lat>52.6284231891866</lat>
+		<long>1.23672366142273</long>
+		<id>118</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Elm - University Village</name>
+		<lat>52.6287813590983</lat>
+		<long>1.23773753643036</long>
+		<id>114</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Hawthorne - University Village</name>
+		<lat>52.6288399684411</lat>
+		<long>1.23517870903015</long>
+		<id>109</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Larch - University Village</name>
+		<lat>52.6281203705197</lat>
+		<long>1.23690605163574</long>
+		<id>121</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Oak - University Village</name>
+		<lat>52.6282017735931</lat>
+		<long>1.23640179634094</long>
+		<id>122</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Close (Block E) 9-12</name>
+		<lat>52.6294293135805</lat>
+		<long>1.23727083206177</long>
+		<id>112</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Close (Block D) 13-24</name>
+		<lat>52.6291102216174</lat>
+		<long>1.23755514621735</long>
+		<id>113</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Close (Block F) 5-6</name>
+		<lat>52.628976723269</lat>
+		<long>1.23720645904541</long>
+		<id>115</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Close (Block G) 2-4</name>
+		<lat>52.6288074077047</lat>
+		<long>1.23723864555359</long>
+		<id>116</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Courtyard A</name>
+		<lat>52.6279998936932</lat>
+		<long>1.23726546764374</long>
+		<id>120</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Village Courtyard B</name>
+		<lat>52.6284590063097</lat>
+		<long>1.23755514621735</long>
+		<id>119</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Yew - University Village</name>
+		<lat>52.6286576280057</lat>
+		<long>1.23701333999634</long>
+		<id>117</id>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Victory House</name>
+		<lat>52.622639</lat>
+		<long>1.24638</long>
+		<id>129</id>
+		<description>Our newest residences, &lt;a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'&gt;&lt;strong&gt;Britten, Browne, Colman, Kett, Paston and Victory&lt;/strong&gt; &lt;/a&gt;all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner.  </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Wolfson Close</name>
+		<lat>52.621647</lat>
+		<long>1.247152</long>
+		<id>102</id>
+		<description>100 standard rooms are available in &lt;a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html.'&gt;Orwell Close&lt;/a&gt; and &lt;a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html'&gt;Wolfson Close&lt;/a&gt;. The rooms are arranged in flats of between 5 and 12 rooms, and the size of the kitchen/diner reflects the number of people sharing. Please note these rooms do not have washbasins. </description>
+	</dataRow>
+	<dataRow>
+		<type>accommodation</type>
+		<name>Crome Court</name>
+		<lat>52.62216</lat>
+		<long>1.246562</long>
+		<id>133</id>
+	</dataRow>
+	<dataRow>
+		<type>bandb</type>
+		<name>BroadView Lodge</name>
+		<lat>52.621373</lat>
+		<long>1.243357</long>
+		<description>&lt;a href='http://www.broadviewlodge.co.uk/index.htm'&gt;Broadview Lodge&lt;/a&gt; is Bed and Breakfast accommodation on campus. Broadview Lodge has sixty en-suite rooms, which are available all year round, ideal for a small conference, training day or indeed for leisure guests. Rooms are equipped with TV, tea and coffee making facilities, Wi-Fi internet access, alarm clock, hair dryer and an iron and ironing board.</description>
+		<link>https://www.uea.ac.uk/about/visiting-staying/visitor-accommodation/broadview-lodge</link>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Bio-Medical Research Centre (BMRC)</name>
+		<lat>52.6210686616693</lat>
+		<long>1.23673975467682</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Biomass Energy Centre</name>
+		<lat>52.6236494812078</lat>
+		<long>1.24485075473785</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Blackdale Building</name>
+		<lat>52.6243203065419</lat>
+		<long>1.24557763338088</long>
+		<id>BDS</id>
+		<abbr>BDS</abbr>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Earlham Hall</name>
+		<lat>52.625499</lat>
+		<long>1.236646</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Edith Cavell Building</name>
+		<lat>52.61972</lat>
+		<long>1.22333</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Lawrence Stenhouse Building</name>
+		<lat>52.6214350333319</lat>
+		<long>1.23735398054123</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Elizbeth Fry Building</name>
+		<lat>52.621571</lat>
+		<long>1.235393</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Hubert Lamb Building</name>
+		<lat>52.6218437376571</lat>
+		<long>1.23856097459793</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>ITCS Building</name>
+		<lat>52.621319</lat>
+		<long>1.239371</long>
+		<abbr>ITCS</abbr>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Estates Building</name>
+		<lat>52.6221514846105</lat>
+		<long>1.23834371566772</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Medical Building</name>
+		<lat>52.6218795601651</lat>
+		<long>1.23461544513702</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Queen's Building</name>
+		<lat>52.6212021841415</lat>
+		<long>1.23612821102142</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Registry Building</name>
+		<lat>52.622505</lat>
+		<long>1.241659</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Teaching Wall: Arts I</name>
+		<lat>52.6218030302261</lat>
+		<long>1.24025344848633</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Teaching Wall: Arts II</name>
+		<lat>52.622112</lat>
+		<long>1.240677</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Teaching Wall: Biology</name>
+		<lat>52.6206811185287</lat>
+		<long>1.23650103807449</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Teaching Wall: Chemisty (CAP)</name>
+		<lat>52.621550643309</lat>
+		<long>1.23931735754013</long>
+		<abbr>CAP</abbr>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Teaching Wall: Sciences</name>
+		<lat>52.6214464315123</lat>
+		<long>1.23829275369644</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Thomas Paine Study Centre</name>
+		<lat>52.6219512050931</lat>
+		<long>1.23619794845581</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>ZICER Building</name>
+		<lat>52.6217346416568</lat>
+		<long>1.2380513548851</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Music Building</name>
+		<lat>52.6209074571662</lat>
+		<long>1.24225974082947</long>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>Bob Champion Research and Education Building</name>
+		<lat>52.619682</lat>
+		<long>1.218946</long>
+		<image>https://www.uea.ac.uk/polopoly_fs/1.255280!imageselect/bobchampweb.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>building</type>
+		<name>The Enterprise Centre (TEC)</name>
+		<lat>52.625375</lat>
+		<long>1.239803</long>
+		<description>Located at the gateway to the campus, and managed by the Adapt Low Carbon Group, this ground-breaking building is the region's huib for entrepreneurs, innovators and businesses that are committed to building a low carbon future.</description>
+		<abbr>TEC</abbr>
+		<link>http://theenterprisecentre.uea.ac.uk/</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Music Centre</name>
+		<lat>52.6209074571662</lat>
+		<long>1.24225974082947</long>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Bluebell Road, adj University Entrance</name>
+		<lat>52.6225552974362</lat>
+		<long>1.24759197235107</long>
+		<id>nfodjtjd</id>
+		<description>Buses from city centre drop off here </description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Bluebell Road, opp University Entrance</name>
+		<lat>52.622226385658</lat>
+		<long>1.24783337116241</long>
+		<id>nfodjtjg</id>
+		<description>For buses 25, 25A and X25 to Norwich City centre and Rail Station</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Chancellors Drive Stop E</name>
+		<lat>52.6219170109375</lat>
+		<long>1.23722791671753</long>
+		<id>nfodjptm</id>
+		<description>For buses 25, 25A and X25 to Norwich City centre and Rail Station</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>University Drive, Stop A</name>
+		<lat>52.6228255894237</lat>
+		<long>1.2421578168869</long>
+		<id>nfodjgpa</id>
+		<description>For buses: 25, 25A and X25 to Norwich city centre and Rail Station</description>
+		<abbr>bus</abbr>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>University Drive, Stop B</name>
+		<lat>52.6229265414247</lat>
+		<long>1.24365985393524</long>
+		<id>nfogtgmp</id>
+		<description>For buses: 21, 21A, 22 to Norwich city centre via Bowthorpe</description>
+		<abbr>bus</abbr>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Norfolk &amp; Norwich University Hospital, Colney Lane (S-bound)</name>
+		<lat>52.6186863569081</lat>
+		<long>1.22439086437225</long>
+		<id>nfogpada</id>
+		<description>For Buses: 11 and 11A (Sprowston)</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Chancellors Drive, Annexe, Stop F </name>
+		<lat>52.621715102046</lat>
+		<long>1.23278081417084</long>
+		<id>nfodmtja</id>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>coach_stop</type>
+		<name>Chancellors Drive</name>
+		<lat>52.6218421093606</lat>
+		<long>1.23799502849579</long>
+		<id>nfodjptp</id>
+		<description>For Coaches: National Express 727 Gatwick Airport, South Terminal Bus Station</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>University Drive, Stop C</name>
+		<lat>52.622760458977</lat>
+		<long>1.24346673488617</long>
+		<id>nfodjgpd</id>
+		<description>For buses: 9 Wymondham, 604 New Costessey, Park &amp; Ride and drop off for buses from the city centre</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Bluebell Road, The Avenues, opp</name>
+		<lat>52.6240337416377</lat>
+		<long>1.24766707420349</long>
+		<id>nfodjptw</id>
+		<description>For buses towards city centre</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Bluebell Road, adj North Park Avenue</name>
+		<lat>52.6201974989568</lat>
+		<long>1.24700725078583</long>
+		<id>nfodjtja</id>
+		<description>For buses towards city centre</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Earlham Road, adj Earlham Park Gates</name>
+		<lat>52.6280943215043</lat>
+		<long>1.24126195907593</long>
+		<id>nfodjptj</id>
+		<description>For buses: 4 (Swanton Morley and Dereham), 3 (Watton), 15 Shipdham, Eastgate</description>
+		<abbr>bus</abbr>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Bluebell Road, opp North Park Avenue</name>
+		<lat>52.6203929014473</lat>
+		<long>1.24682486057282</long>
+		<id>nfodjtgw</id>
+		<description>Drop off for buses from city centre</description>
+		<abbr>bus</abbr>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>bus_stop</type>
+		<name>Earlham Road, opp Earlham Park Gates</name>
+		<lat>52.62821</lat>
+		<long>1.24083</long>
+		<id>nfogmjtd</id>
+		<description>For buses: 4,3 to Norwich City centre (bus station)</description>
+		<abbr>bus</abbr>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Bio Cafe</name>
+		<lat>52.6209595637372</lat>
+		<long>1.23645007610321</long>
+		<description>Located in the science building, Bio Café is fantastic for barista coffee accompanied with a great range of sandwiches &amp; snacks.</description>
+		<openingtimes>Monday to Friday  09:30am -16:00pm</openingtimes>
+		<link>https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/bio-cafe</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Cafe Direct</name>
+		<lat>52.6210963431909</lat>
+		<long>1.24157309532166</long>
+		<description>Caf&amp;eacute; Direct, the powerhouse of high street coffee shops is renowned for its totally spectacular coffee - the very best on campus! Great baguettes and tasty hot snacks are available here too, find us near the bank.</description>
+		<openingtimes>Term time&lt;br/&gt;
+Monday to Friday  08:00-19:00&lt;br/&gt;
+Saturday and Sunday 09:30-17:00&lt;br/&gt;
+&lt;br/&gt;
+Vacation Period&lt;br/&gt;
+Monday to Friday 09:00-17:00&lt;br/&gt;
+Saturday and Sunday 09:30-17:00</openingtimes>
+		<link>http://www.uea.ac.uk/CampusKitchen/outlets/Cafedirect</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Blend</name>
+		<lat>52.62157</lat>
+		<long>1.24073</long>
+		<description>The Blend is a relaxed coffee and snack bar which offers hot breakfast items, sandwiches, baked items and pizza for lunch. A wide selection of coffees, teas and cold drinks are also available. The Blend is the ideal venue for meeting friends, chatting about a recent lecture or an informal meeting.</description>
+		<openingtimes>Monday to Friday: 08:30-19:00</openingtimes>
+		<link>https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/blend</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Vista</name>
+		<lat>52.62165</lat>
+		<long>1.24073</long>
+		<description>Vista is an oasis of tranquility for staff and post graduates alike. Serving superb barista coffee, delicious lunches and tasty afternoon snacks.</description>
+		<openingtimes>Monday to Friday 08:30am to 16:00pm</openingtimes>
+		<link>https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/vista</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Zest</name>
+		<lat>52.621483</lat>
+		<long>1.24073</long>
+		<description>Located on the ground floor of The Campus Kitchen found in the main square.</description>
+		<openingtimes>Monday - Friday: 07:30am to 20:00pm, Saturday and Sunday: 10:30am to 16:30pm (non-term time Monday - Friday: 07:30am to 18.00pm, closed at the weekends)</openingtimes>
+		<link>https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/zest</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Sportscafe</name>
+		<lat>52.6242486654917</lat>
+		<long>1.24142825603485</long>
+		<openingtimes>Monday to Thursday 08:00 to 22:00&lt;br/&gt;
+Friday to Saturday 08:00 to 21:00&lt;br/&gt;Last food orders 30mins before close</openingtimes>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>INTO Cafe</name>
+		<lat>52.6233368600643</lat>
+		<long>1.2455803155899</long>
+		<link>https://twitter.com/INTOUEACafe</link>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>SVCA Garden Resturant</name>
+		<lat>52.620646923381</lat>
+		<long>1.23403072357178</long>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>SVCA Cafe</name>
+		<lat>52.6200509465165</lat>
+		<long>1.23508751392364</long>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Tonic</name>
+		<lat>52.6195754618874</lat>
+		<long>1.2230658531189</long>
+		<description>Located in the Edith Cavell building, Tonic offers fresh, homemade sandwiches, scones and cakes with an array of coffees, teas and soft drinks.  </description>
+		<openingtimes>Monday to Friday: 8:30am to 15:30pm (closed throughout August)</openingtimes>
+	</dataRow>
+	<dataRow>
+		<type>cafe</type>
+		<name>Cafe 57</name>
+		<lat>52.622103</lat>
+		<long>1.234125</long>
+		<description>Cafe 57 is the latest addition to The Campus Kitchen portfolio. We are located in the The Julian Study Centre (Building 57) on Chancellors Drive</description>
+		<openingtimes>Monday to Friday 08.45 - 15.30</openingtimes>
+		<link>https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-57</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Astro Turf Pitches</name>
+		<lat>52.626198</lat>
+		<long>1.241605</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>CareerCentral</name>
+		<lat>52.621298</lat>
+		<long>1.241192</long>
+		<description>The Careers Service provides information, advice and guidance services for all UEA students and graduates, helping them into employment and further study.</description>
+		<openingtimes>Open 9am-5pm Monday to Friday</openingtimes>
+		<link>https://mycareercentral.uea.ac.uk/students/registration/providerwho?returnURL=%2F</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Chancellors Drive Annexes</name>
+		<lat>52.6218909582297</lat>
+		<long>1.23332262039185</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Multifaith Centre</name>
+		<lat>52.621799</lat>
+		<long>1.240608</long>
+		<description>UEA's Multifaith Centre is a spiritual meeting place and community centre on campus.</description>
+		<openingtimes>We are open for staff and students of the University from 10 am to 4 pm, Monday to Friday during semester time and on Sunday evenings for services. </openingtimes>
+		<link>https://portal.uea.ac.uk/multifaith</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Islamic Prayer Room</name>
+		<lat>52.62111</lat>
+		<long>1.240591</long>
+		<description>Islamic Prayer Room located in the main Lecture Theatre Block (opposite Lecture Theatre 2).</description>
+		<openingtimes>Open for daily prayers from 6am–11pm every day including weekends, via campus card swipe access</openingtimes>
+		<link>https://portal.uea.ac.uk/multifaith/faiths/islamic</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Islamic Prayer Hall</name>
+		<lat>52.624249</lat>
+		<long>1.245454</long>
+		<description>The main hall at Blackdale is available for prayers for staff and students on Fridays</description>
+		<openingtimes>Friday 12-3pm</openingtimes>
+		<link>https://portal.uea.ac.uk/multifaith/faiths/islamic</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Colney Lane Pavillion</name>
+		<lat>52.621601</lat>
+		<long>1.224147</long>
+		<description>Colney Lane Pavillion</description>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Congregation Hall</name>
+		<lat>52.621994</lat>
+		<long>1.242635</long>
+		<abbr>C.HALL</abbr>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Council House</name>
+		<lat>52.622192</lat>
+		<long>1.24123</long>
+		<abbr>REG C. CHAMBER</abbr>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Dean of Students' Office</name>
+		<lat>52.621071</lat>
+		<long>1.241466</long>
+		<description>The Dean of Students' Office offers wide-ranging advice and guidance to any student who is experiencing difficulties or who wishes to make the most of the opportunities available to them at UEA.</description>
+		<abbr>DOS</abbr>
+		<openingtimes> </openingtimes>
+		<link>http://www.uea.ac.uk/dos</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Dev Farm</name>
+		<lat>52.6194061099502</lat>
+		<long>1.24661564826965</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Earlham Park</name>
+		<lat>52.624298</lat>
+		<long>1.234428</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>International Standard Athletics Track</name>
+		<lat>52.624832</lat>
+		<long>1.24212</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Nick Rayns LCR</name>
+		<lat>52.621426</lat>
+		<long>1.24179</long>
+		<description>The Nick Rayns LCR has been voted as the best student venue in the country by the music industry's Live! magazine. Each year it plays host to well known bands such as Public Enemy, Sterephonics, Kasabian, Amy Winehouse and The Ting Tings amongst others. For full LCR listings click &lt;a href='http://www.ueastudent.com/ents/entsFeatures/studentnights/index_html'&gt;LCR Nights&lt;/a&gt;</description>
+		<abbr>LCR</abbr>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Norfolk and Norwich University Hospital</name>
+		<lat>52.617783</lat>
+		<long>1.220984</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>UEA Nursery</name>
+		<lat>52.623611</lat>
+		<long>1.246562</long>
+		<description>UEA Nursery is a full day care Nursery offering care for babies from 6 weeks and children until starting school. </description>
+		<link>http://www.uea.ac.uk/nursery</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Lodge (Security)</name>
+		<lat>52.623119</lat>
+		<long>1.240532</long>
+		<description>The Lodge (Security) provides a 24-hour point of contact for those seeking advice or assistance and to keep the campus safe, security staff maintain close liaison with the local police. </description>
+		<abbr>help</abbr>
+		<openingtimes>24 / 7</openingtimes>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Sportspark</name>
+		<lat>52.624466</lat>
+		<long>1.240854</long>
+		<description>The Sportspark is East Anglia's largest swimming and sports centre. It includes an olympic sized swimming pool, an eight lane international standard athletics track, Norfolk's largest indoor climbing wall, a state of the art fitness centre plus much, much more. For a comprehensive list of all the activities offered at the Sportspark, please click the link above.</description>
+		<abbr>SP</abbr>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110687.LATEST!imageManager/3145070167.jpg</image>
+		<link>http://www.sportspark.co.uk/</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Student Union Pub and Bar</name>
+		<lat>52.621544</lat>
+		<long>1.241231</long>
+		<description>The Union Pub and Bar is the hub of social life on campus. As well as providing the usual pub services; drinks, snacks, games machines, pool tables and a juke box, it also hosts a wide selection of special events - karaoke, tournaments, promotions, DJ sets and more.</description>
+		<openingtimes>Monday/Tuesday 11am to 11pm&lt;br&gt;Wednesday 11am - 1pm&lt;br&gt;Thursday/Friday 11am - midnight&lt;br&gt;Saturday - 11am - 11pm&lt;br&gt;Sunday - midday - 11pm</openingtimes>
+		<link>http://www.ueastudent.com/ents/entsFeatures/unionbars/thebar</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Tennis Courts</name>
+		<lat>52.627033</lat>
+		<long>1.241884</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Broad</name>
+		<lat>52.618717</lat>
+		<long>1.241552</long>
+		<description>The man-made lake (broad) on campus is a beautiful place to collect your thoughts and enjoy nature</description>
+		<abbr>broad</abbr>
+		<image>http://www.uea.ac.uk/polopoly_fs/1.110909!imageManager/2943990812.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Drama Studio</name>
+		<lat>52.621815</lat>
+		<long>1.242362</long>
+		<description>The purpose-built 200-seat studio theatre plays host to professional productions, as well as regularly showcasing the work of students studying &lt;a href='http://www.uea.ac.uk/literature/drama'&gt;Drama&lt;/a&gt; at UEA.</description>
+		<abbr>DRA</abbr>
+		<openingtimes> </openingtimes>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110665.LATEST!imageManager/1771340463.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Hive</name>
+		<lat>52.6214350333319</lat>
+		<long>1.24129951000214</long>
+		<description>The Hive Bar, situated downstairs in Union House is used in many different ways; as a daytime cafe, a night-time venue for societies and as the second room on our regular student nights.</description>
+		<openingtimes>Monday - Friday 9am - 5pm term time</openingtimes>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Square</name>
+		<lat>52.621742</lat>
+		<long>1.241021</long>
+		<description>The Square is located at the heart of the University and a central focal point for the University community. It has recently been regenerated to include new paving, seating and a new central fountain and water feature. </description>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>The Street</name>
+		<lat>52.621265</lat>
+		<long>1.241334</long>
+		<description>On the Street you’ll find a variety of shops including our large food store (complete with Post Office), a Waterstones book shop and Cafe Direct coffee shop. Other facilities on The Street  include a bank and a 24-hour laundrette. There’s also CareerCentral (https://www.uea.ac.uk/careers) the one-stop-shop for anything relating to careers.</description>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Union House</name>
+		<lat>52.621559</lat>
+		<long>1.241468</long>
+		<abbr>UH</abbr>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>University Dental Service</name>
+		<lat>52.62341</lat>
+		<long>1.24687</long>
+		<description>University Dental Service</description>
+		<abbr>UDS</abbr>
+		<link>http://www.uea.ac.uk/dentist</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Interdisciplinary Institute</name>
+		<lat>52.6209074571662</lat>
+		<long>1.24225974082947</long>
+		<fac>HUM</fac>
+		<description>The Interdisciplinary Institute for the Humanities is the home for the innovative Foundation Year in the Humanities and the Liberal Arts BA programme, as well as the MA in Creative Entrepreneurship. We provide an intellectual home for those activities in the Faculty of Arts and Humanities which cross disciplinary boundaries, including the Centre for Japanese Studies (CJS) and the East Anglian Film Archive (EAFA).</description>
+		<link>https://www.uea.ac.uk/humanities</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Julian Study Centre</name>
+		<lat>52.622151</lat>
+		<long>1.234079</long>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Print Services</name>
+		<lat>52.620991</lat>
+		<long>1.241589</long>
+		<description>Providing a high quality, professional printing service located within Building 18, Suffolk Road</description>
+		<openingtimes>Monday-Friday 9am - 5pm</openingtimes>
+		<link>https://portal.uea.ac.uk/print-services</link>
+	</dataRow>
+	<dataRow>
+		<type>campus_fac</type>
+		<name>Safety Services</name>
+		<lat>52.62093</lat>
+		<long>1.2372091</long>
+		<description>Our role is to provide all staff and students at UEA with advice and guidance on safety</description>
+		<link>https://portal.uea.ac.uk/uss</link>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name> </name>
+		<lat>52.6233596554314</lat>
+		<long>1.24607920646667</long>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P1</name>
+		<lat>52.6233336035823</lat>
+		<long>1.24309659004211</long>
+		<description>P1 &amp;mdash; Main Visitors Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P10</name>
+		<lat>52.6217965170337</lat>
+		<long>1.22393488883972</long>
+		<description>P10 &amp;mdash; Sports Pavilion Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P2</name>
+		<lat>52.6222589512908</lat>
+		<long>1.23360157012939</long>
+		<description>P2 &amp;mdash; West Car Park (permit holders only weekday daytime)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P3</name>
+		<lat>52.6221612543196</lat>
+		<long>1.23595118522644</long>
+		<description>P3 &amp;mdash; West Car Park (permit holders only weekday daytime)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P3</name>
+		<lat>52.6219919123862</lat>
+		<long>1.23769998550415</long>
+		<description>P3 &amp;mdash; West Car Park (permit holders only weekday daytime)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P4</name>
+		<lat>52.6222589512908</lat>
+		<long>1.23942732810974</long>
+		<description>P4 &amp;mdash; Permit holders (Pre Booked) visitors only Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P5</name>
+		<lat>52.6213210513655</lat>
+		<long>1.23552203178406</long>
+		<description>P5 &amp;mdash; Central Visitors Car Park (pay &amp;amp; display)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P6</name>
+		<lat>52.6254502657759</lat>
+		<long>1.24083280563354</long>
+		<description>P6 &amp;mdash; Sportspark Car Park (Sportspark users only)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P7</name>
+		<lat>52.6205329393623</lat>
+		<long>1.23607993125916</long>
+		<description>P7 &amp;mdash; Sainsbury Centre Car Park (visitors only)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P8</name>
+		<lat>52.6247078174623</lat>
+		<long>1.24517798423767</long>
+		<description>P8 &amp;mdash; Blackdale Car Park (scratch cards, pay &amp;amp; display)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P8</name>
+		<lat>52.6243365885824</lat>
+		<long>1.24668002128601</long>
+		<description>P8 &amp;mdash; Blackdale Car Park (scratch cards, pay &amp;amp; display)</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P9</name>
+		<lat>52.61802</lat>
+		<long>1.223978</long>
+		<description>P9 &amp;mdash; Edith Cavell Building Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P11</name>
+		<lat>52.626258</lat>
+		<long>1.239379</long>
+		<description>P11 &amp;mdash; Earlham Park / Enterprise Centre Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>car_park</type>
+		<name>Car Park P12</name>
+		<lat>52.62826</lat>
+		<long>1.237502</long>
+		<description>P12 &amp;mdash; Village Car Park</description>
+	</dataRow>
+	<dataRow>
+		<type>coach_stop</type>
+		<lat>52.6229135153731</lat>
+		<long>1.24379932880402</long>
+		<description>Coaches: Megabus (London)</description>
+		<link>http://www.uea.ac.uk/estates/transport/Publictransport</link>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6213080248362</lat>
+		<long>1.23615235090256</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6222768623786</lat>
+		<long>1.24383956193924</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6220765834348</lat>
+		<long>1.23543620109558</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6217248718525</lat>
+		<long>1.23571515083313</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6215392451558</lat>
+		<long>1.236412525177</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6209074571662</lat>
+		<long>1.23586535453796</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6227083545498</lat>
+		<long>1.24076306819916</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.622652993528</lat>
+		<long>1.2409508228302</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6222882603396</lat>
+		<long>1.2422114610672</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6238416118445</lat>
+		<long>1.24072015285492</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6245222034159</lat>
+		<long>1.2406450510025</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6224478314835</lat>
+		<long>1.24449133872986</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6223599045987</lat>
+		<long>1.24560177326202</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.621965859723</lat>
+		<long>1.24539792537689</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6220114518735</lat>
+		<long>1.24614357948303</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6229493370056</lat>
+		<long>1.24679803848267</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6231968311196</lat>
+		<long>1.24661564826965</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6211321663105</lat>
+		<long>1.24244213104248</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6218746752794</lat>
+		<long>1.23397171497345</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6214822543454</lat>
+		<long>1.23757660388947</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.6215620414592</lat>
+		<long>1.23801380395889</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_rack</type>
+		<lat>52.620843952199</lat>
+		<long>1.24132633209229</long>
+	</dataRow>
+	<dataRow>
+		<type>cycle_repair</type>
+		<name>Cycle Repair Centre</name>
+		<lat>52.6222</lat>
+		<long>1.24323070049286</long>
+		<description>Dr Bike at the Cycle Repair Centre (recycling zone, rear of Congregation Hall)</description>
+		<openingtimes>Term Time: Every Tuesday, Wednesday and Thursday 10.00 am until 2.30 pm&lt;br/&gt;
+Vacation Period: Tuesday only 10.00 – 2.30 pm</openingtimes>
+		<link>http://www.uea.ac.uk/estates/transport/cycling</link>
+	</dataRow>
+	<dataRow>
+		<type>hub</type>
+		<name>Arts Hub</name>
+		<lat>52.62187793</lat>
+		<long>1.24024272</long>
+		<description>For students from AMA, DEV, ECO, HIS, LAW, LDC, PPL studying UG and PG taught courses</description>
+	</dataRow>
+	<dataRow>
+		<type>hub</type>
+		<name>Elizabeth Fry Hub</name>
+		<lat>52.62153925</lat>
+		<long>1.235387921</long>
+		<description>For students from BIO, CHE, CMP, ENV, MED, MTH, NBS, PHA, SCI studying UG and PG taught courses</description>
+	</dataRow>
+	<dataRow>
+		<type>hub</type>
+		<name>ZICER Hub</name>
+		<lat>52.62172487</lat>
+		<long>1.237978935</long>
+		<description>For students from HSC, EDU, SWK, PSY studying UG and PG taught courses and placements</description>
+	</dataRow>
+	<dataRow>
+		<type>hub</type>
+		<name>Postgraduate Research Service (PGR)</name>
+		<lat>52.621584</lat>
+		<long>1.235687</long>
+		<description>Postgraduate Research (PGR) provision at the University includes research programmes leading to Masters by Research (MA and MSc), Master of Philosophy (MPhil), Doctor of Philosophy (PhD) and other research-based qualifications across a range of subjects.</description>
+		<link>https://portal.uea.ac.uk/postgraduate-research</link>
+	</dataRow>
+	<dataRow>
+		<type>information</type>
+		<lat>52.6216467133393</lat>
+		<long>1.24152481555939</long>
+	</dataRow>
+	<dataRow>
+		<type>information</type>
+		<lat>52.622311056253</lat>
+		<long>1.24142289161682</long>
+	</dataRow>
+	<dataRow>
+		<type>information</type>
+		<lat>52.6242551783193</lat>
+		<long>1.24092400074005</long>
+	</dataRow>
+	<dataRow>
+		<type>information</type>
+		<lat>52.6232359090097</lat>
+		<long>1.24065577983856</long>
+	</dataRow>
+	<dataRow>
+		<type>launderette</type>
+		<lat>52.620892</lat>
+		<long>1.241965</long>
+	</dataRow>
+	<dataRow>
+		<type>launderette</type>
+		<lat>52.6235778390597</lat>
+		<long>1.2465888261795</long>
+	</dataRow>
+	<dataRow>
+		<type>launderette</type>
+		<lat>52.62886</lat>
+		<long>1.237107</long>
+	</dataRow>
+	<dataRow>
+		<type>level_access</type>
+		<lat>52.6232652174044</lat>
+		<long>1.24676585197449</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.619393082851</lat>
+		<long>1.22308194637299</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6219007279969</lat>
+		<long>1.23505532741547</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6219853992219</lat>
+		<long>1.23618721961975</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6217606944578</lat>
+		<long>1.23819887638092</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6216857926134</lat>
+		<long>1.2392395734787</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.622001682131</lat>
+		<long>1.2399959564209</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6222915168994</lat>
+		<long>1.24049484729767</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6214513164458</lat>
+		<long>1.24121904373169</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6242421526632</lat>
+		<long>1.2412029504776</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6233336035823</lat>
+		<long>1.24543011188507</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6207902171548</lat>
+		<long>1.24116003513336</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6215131922231</lat>
+		<long>1.24063968658447</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.621119139725</lat>
+		<long>1.23746931552887</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6208032438382</lat>
+		<long>1.23642861843109</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6202365795247</lat>
+		<long>1.23515725135803</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6211777593294</lat>
+		<long>1.24063968658447</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6208748905279</lat>
+		<long>1.24084889888763</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6222784906589</lat>
+		<long>1.24249845743179</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6215815811384</lat>
+		<long>1.23577684164047</long>
+	</dataRow>
+	<dataRow>
+		<type>lift</type>
+		<lat>52.6224006115117</lat>
+		<long>1.24128341674805</long>
+	</dataRow>
+	<dataRow>
+		<type>medical</type>
+		<name>University Medical Services</name>
+		<lat>52.62342316</lat>
+		<long>1.246899962</long>
+		<description>UEA houses a  &lt;a href='http://www.umsuea.co.uk/'&gt;Medical Centre&lt;/a&gt; to facilitate the students on its campus. </description>
+		<openingtimes>Mon        0830-1830 hrs         
+Tue        0830-2000 hrs         
+Wed        0830-1830 hrs         
+Thu        0830-1830 hrs         
+Fri        0830-1830 hrs         
+Sat        0830-1200 hrs        Pre-booked appointments only</openingtimes>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110657.LATEST!imageManager/3109042611.jpg</image>
+		<link>http://www.umsuea.co.uk/</link>
+	</dataRow>
+	<dataRow>
+		<type>motorcycle_parking</type>
+		<lat>52.62296562</lat>
+		<long>1.241900325</long>
+	</dataRow>
+	<dataRow>
+		<type>motorcycle_parking</type>
+		<lat>52.62151645</lat>
+		<long>1.239776015</long>
+	</dataRow>
+	<dataRow>
+		<type>motorcycle_parking</type>
+		<lat>52.62227523</lat>
+		<long>1.239244938</long>
+	</dataRow>
+	<dataRow>
+		<type>motorcycle_parking</type>
+		<lat>52.622109</lat>
+		<long>1.236678</long>
+	</dataRow>
+	<dataRow>
+		<type>museum</type>
+		<name>Sainsbury Centre for Visual Arts</name>
+		<lat>52.620365</lat>
+		<long>1.234653</long>
+		<abbr>SCVA</abbr>
+		<image>http://www.uea.ac.uk/polopoly/polopoly_fs/1.110664.LATEST!imageManager/2372453709.jpg</image>
+	</dataRow>
+	<dataRow>
+		<type>pay_station</type>
+		<lat>52.62127872</lat>
+		<long>1.235902905</long>
+	</dataRow>
+	<dataRow>
+		<type>pay_station</type>
+		<lat>52.62207007</lat>
+		<long>1.238102317</long>
+	</dataRow>
+	<dataRow>
+		<type>pay_station</type>
+		<lat>52.6228549</lat>
+		<long>1.241573095</long>
+	</dataRow>
+	<dataRow>
+		<type>pay_station</type>
+		<lat>52.62310891</lat>
+		<long>1.244673729</long>
+	</dataRow>
+	<dataRow>
+		<type>pay_station</type>
+		<lat>52.62453197</lat>
+		<long>1.245000958</long>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Block (Total)</name>
+		<lat>52.62185</lat>
+		<long>1.2401</long>
+		<id>arts</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Room 1.01</name>
+		<lat>52.6219</lat>
+		<long>1.23994</long>
+		<id>3/1.01</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Room 1.02</name>
+		<lat>52.62194</lat>
+		<long>1.23987</long>
+		<id>3/1.02</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Room 1.03</name>
+		<lat>52.62199</lat>
+		<long>1.2398</long>
+		<id>3/1.03</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Room 1.04</name>
+		<lat>52.62204</lat>
+		<long>1.23997</long>
+		<id>3/1.04</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Arts Room 1.05</name>
+		<lat>52.62199</lat>
+		<long>1.24004</long>
+		<id>3/1.05</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>ITCS Building (Total)</name>
+		<lat>52.62134</lat>
+		<long>1.23953</long>
+		<id>itcs</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>ITCS Floor 0 Teaching Room</name>
+		<lat>52.6214</lat>
+		<long>1.23946</long>
+		<id>12/0.17</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>ITCS Floor 01 Teaching Room</name>
+		<lat>52.62139</lat>
+		<long>1.23934</long>
+		<id>12/01.26</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>ITCS Group Study Room (Floor 01)</name>
+		<lat>52.62131</lat>
+		<long>1.23967</long>
+		<id>12/01.02</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 0 (24hour Area)</name>
+		<lat>52.620763</lat>
+		<long>1.24121</long>
+		<id>14/0.24</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 01 (01.29)</name>
+		<lat>52.620732</lat>
+		<long>1.240582</long>
+		<id>14/01.29</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 01 (01.03)</name>
+		<lat>52.620732</lat>
+		<long>1.24058</long>
+		<id>14/01.03</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 1</name>
+		<lat>52.620812</lat>
+		<long>1.240582</long>
+		<id>14/1.32</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 1 (24hour Area)</name>
+		<lat>52.620878</lat>
+		<long>1.24121</long>
+		<id>14/1.33</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 2</name>
+		<lat>52.620891</lat>
+		<long>1.240582</long>
+		<id>14/2.33</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Floor 3</name>
+		<lat>52.620968</lat>
+		<long>1.240582</long>
+		<id>14/3.33</id>
+	</dataRow>
+	<dataRow>
+		<type>pc_spaces</type>
+		<name>Library Building (Total)</name>
+		<lat>52.621</lat>
+		<long>1.24084</long>
+		<id>library</id>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6213047682032</lat>
+		<long>1.23845100402832</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6218681620976</lat>
+		<long>1.23929858207703</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6216923058223</lat>
+		<long>1.23940587043762</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6220049387121</lat>
+		<long>1.23973309993744</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6219984255496</lat>
+		<long>1.24015152454376</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6213666441877</lat>
+		<long>1.23979210853577</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6214578296896</lat>
+		<long>1.24002277851105</long>
+	</dataRow>
+	<dataRow>
+		<type>ramped_access</type>
+		<lat>52.6221058926058</lat>
+		<long>1.2407523393631</long>
+	</dataRow>
+	<dataRow>
+		<type>recycle_centre</type>
+		<lat>52.6223012865773</lat>
+		<long>1.24065041542053</long>
+	</dataRow>
+	<dataRow>
+		<type>recycle_centre</type>
+		<lat>52.621265688589</lat>
+		<long>1.24184131622314</long>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Draped Reclining Woman</name>
+		<lat>52.6207723054587</lat>
+		<long>1.23366862535477</long>
+		<id>86</id>
+		<description>Draped Reclining Woman. Henry Moore (1898-1986). England. 1957-58. Bronze, edition 4/6. w. 205 cm. Acquired from the artist 1960. Robert and Lisa Sainsbury Collection. UEA 86.</description>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Extrapolation</name>
+		<lat>52.62068</lat>
+		<long>1.24005</long>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>One for Bristol</name>
+		<lat>52.62073</lat>
+		<long>1.24269</long>
+		<id>41399</id>
+		<description>One for Bristol, John Hoskin (1921-1990), England, 1968, Stainless steel, painted steel, University General &amp; Vice-Chancellor's Collection UEA 41399</description>
+		<image>http://www.adlib.uea.ac.uk/wwwopac/wwwopac.exe?thumbnail=C:\inetpub\wwwroot\adlib\database\Images\Temp%20images\Uni%20Ab%20and%20Cons\41399.jpg&amp;outputtype=image/jpeg&amp;xsize=150&amp;dontkeepaspectratio=0&amp;fullimage=1</image>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Proximity  </name>
+		<lat>52.6200802570438</lat>
+		<long>1.23755514621735</long>
+		<id>31418</id>
+		<description>Ian Tyson, Proximity, 2006, Painted steel, University Collection of Abstract and Constrctivist Art, Gifted by Anne Dilman in memory of her late husband Professor Ilham Dilman, UEA 31418</description>
+		<image>http://www.adlib.uea.ac.uk/wwwopac/wwwopac.exe?thumbnail=C:\inetpub\wwwroot\adlib\database\Images\jpegs_Uni%20Ab%20and%20Cons\31418a.jpg&amp;outputtype=image/jpeg&amp;xsize=150&amp;dontkeepaspectratio=0&amp;fullimage=1</image>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Reclining Figure </name>
+		<lat>52.6200346628817</lat>
+		<long>1.23601824045181</long>
+		<id>85</id>
+		<description>Reclining Figure. Henry Moore (1898-1986). England. 1956-62. Bronze, edition 4/8. w. 228 cm. Acquired from the artist 1962. Robert and Lisa Sainsbury Collection. UEA 85.</description>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Sculpture 1964 ("Variations on a Square")</name>
+		<lat>52.6203521926671</lat>
+		<long>1.24058604240417</long>
+		<id>41289</id>
+		<description>Sculpture 1964. Henry Clyne. 1964. Brass, brazed copper, steel. Acquired 1964. UEA 41289</description>
+		<image>http://www.adlib.uea.ac.uk/wwwopac/wwwopac.exe?thumbnail=C:\inetpub\wwwroot\adlib\database\Images\Temp%20images\VC%20Collection\41289%20Clyne.jpg&amp;outputtype=image/jpeg&amp;xsize=150&amp;dontkeepaspectratio=0&amp;fullimage=1</image>
+	</dataRow>
+	<dataRow>
+		<type>sculpture</type>
+		<name>Two Piece Reclining Figure No. 3</name>
+		<lat>52.620759278766</lat>
+		<long>1.2349346280098</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6221710240265</lat>
+		<long>1.24232411384583</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6219756294735</lat>
+		<long>1.24382078647614</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6214806260354</lat>
+		<long>1.24470055103302</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621389440581</lat>
+		<long>1.24496877193451</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6206615784476</lat>
+		<long>1.24023735523224</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6205801613489</lat>
+		<long>1.23959362506866</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6203114838489</lat>
+		<long>1.23642593622208</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6207088002954</lat>
+		<long>1.24157845973968</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6214415465782</lat>
+		<long>1.24208003282546</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6207055436178</lat>
+		<long>1.24158382415771</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621483</lat>
+		<long>1.240428</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6208651205316</lat>
+		<long>1.24067187309265</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6206436666988</lat>
+		<long>1.23461008071899</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6202365795247</lat>
+		<long>1.23531818389893</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6215880943629</lat>
+		<long>1.23563468456268</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6219788860566</lat>
+		<long>1.23636960983276</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.623975125858</lat>
+		<long>1.2411493062973</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6244342806982</lat>
+		<long>1.24110102653503</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6243235629504</lat>
+		<long>1.24600410461426</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6233563989511</lat>
+		<long>1.24705016613007</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6233303471</lat>
+		<long>1.24527990818024</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.622239411914</lat>
+		<long>1.24118685722351</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6194712453882</lat>
+		<long>1.22303366661072</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.622226385658</lat>
+		<long>1.24119758605957</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.6214301483966</lat>
+		<long>1.24168306589127</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621248</lat>
+		<long>1.239619</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621248</lat>
+		<long>1.239721</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621351</lat>
+		<long>1.23967</long>
+	</dataRow>
+	<dataRow>
+		<type>stairs</type>
+		<lat>52.621184</lat>
+		<long>1.239675</long>
+	</dataRow>
+	<dataRow>
+		<type>taxi</type>
+		<name>Taxi drop off point</name>
+		<lat>52.6232293960304</lat>
+		<long>1.24065041542053</long>
+	</dataRow>
+	<dataRow>
+		<type>telephone</type>
+		<lat>52.62199</lat>
+		<long>1.24004</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.62204</lat>
+		<long>1.23997</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.62199</lat>
+		<long>1.2398</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.62194</lat>
+		<long>1.23987</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.6219</lat>
+		<long>1.23994</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.62185</lat>
+		<long>1.2401</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.620968</lat>
+		<long>1.240582</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.620891</lat>
+		<long>1.240582</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.620812</lat>
+		<long>1.240582</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.620878</lat>
+		<long>1.24121</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.620763</lat>
+		<long>1.24121</long>
+	</dataRow>
+	<dataRow>
+		<type>gn_toilets</type>
+		<lat>52.620732</lat>
+		<long>1.240582</long>
+		<description>Gender Neutral Toilets: 14/01.32, 14/01.33, 14/1.28, 14/1.29, 14/2.37, 14/2.38, 14/3.36, 14/3.37</description>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.621</lat>
+		<long>1.24084</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.623329</lat>
+		<long>1.240363</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.62227</lat>
+		<long>1.2434</long>
+	</dataRow>
+	<dataRow>
+		<type>toilets</type>
+		<lat>52.621968</lat>
+		<long>1.234111</long>
+	</dataRow>
+	<dataRow>
+		<type>gn_toilets</type>
+		<lat>52.619782</lat>
+		<long>1.218742</long>
+		<description>Gender Neutral Toilets: 214/2.48, 214/2.29</description>
+	</dataRow>
+	<dataRow>
+		<type>gn_toilets</type>
+		<lat>52.621512</lat>
+		<long>1.241407</long>
+		<description>Gender Neutral Toilets: 17/01.13 (12 toilets), 17/0.13 (14 toilets), 17/0.22 (13 toilets)</description>
+	</dataRow>
+	<dataRow>
+		<type>construction</type>
+		<name>Blackdale new student residence </name>
+		<lat>52.624377</lat>
+		<long>1.246691</long>
+		<description>Development of the Blackdale site for a 514 study-bedroom student residence (Phase 1). Commenced June 2015 with an anticipated completion in September 2016. Senior Estates Project Manager: Martin Lovatt. Enquiries to: blackdale.development@uea.ac.uk</description>
+		<link>https://portal.uea.ac.uk/estates/improving-your-campus/buildings-and-projects/theblackdaledevelopment</link>
+	</dataRow>
+	<dataRow>
+		<type>construction</type>
+		<name>Music Refurbishment</name>
+		<lat>52.620764</lat>
+		<long>1.242142</long>
+		<description>Refurbishment of space including development of new media suite. Estates contact: richard.loveland@uea.ac.uk</description>
+	</dataRow>
+	<dataRow>
+		<type>construction</type>
+		<name>Thermal Stores</name>
+		<lat>52.62215</lat>
+		<long>1.237292</long>
+		<description>Installation of heat storage cylinders. Estates contact: neil.wilson@uea.ac.uk</description>
+	</dataRow>
+	<dataRow>
+		<type>construction</type>
+		<name>Library LV Panel Change</name>
+		<lat>52.620891</lat>
+		<long>1.24065</long>
+		<description>Essential electrical work over the Christmas period. Library closed from 7pm on 27 Dec to 12 noon on 2 Jan. Estates contact: p.thacker@uea.ac.uk</description>
+	</dataRow>
+	<dataRow>
+		<type>construction</type>
+		<name>Sportspark</name>
+		<lat>52.624538</lat>
+		<long>1.240994</long>
+		<description>A new indoor cycle studio and physiotherapy clinic. 9th November to mid December.</description>
+	</dataRow>
+</mapData>

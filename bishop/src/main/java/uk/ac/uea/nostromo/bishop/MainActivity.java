@@ -14,6 +14,7 @@ public class MainActivity extends AndroidGame {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         super.onCreate(savedInstanceState, R.layout.activity_main, R.id.table_layout);
     }
 
