@@ -2,6 +2,7 @@ package uk.ac.uea.nostromo.bishop;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,11 +12,19 @@ import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
 
 
 public class MainActivity extends AndroidGame {
+    SharedPreferences parking;
+
+    final String CURRENT_PARKING = "currentParkingName";
+    final String CURRENT_TOA_HOURS = "currentTimeOfArrivalHours";
+    final String CURRENT_TOA_MINUTES = "currentTimeOfArrivalMinutes";
+    final String CURRENT_ZONE = "currentZone";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.onCreate(savedInstanceState, R.layout.activity_main, R.id.table_layout);
+
+        parking = getApplicationContext().getSharedPreferences("UEA_PARKING_AID", 0);
     }
 
     @Override

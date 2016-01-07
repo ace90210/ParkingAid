@@ -5,6 +5,8 @@ import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 
 import java.io.FileInputStream;
@@ -25,12 +27,12 @@ public class HomeScreen extends Screen {
     HomeScreen(Game game, Context context){
         super(game, context);
 
-        TextView title = new TextView(context);
-        title.setText("we are in first view");
-        title.setTextColor(Color.BLACK);
-        screenLayout.addView(title);
-
-        Button secondScreenButton = new Button(context);
+        TableRow secondScreenButton =  game.getGraphics().newButton("Parking", context, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClickSecondView(v);
+            }
+        });
 
         AndroidDataIO adio = new AndroidDataIO();
         AssetManager am = context.getAssets();
@@ -41,20 +43,13 @@ public class HomeScreen extends Screen {
             e.printStackTrace();
         }
 
-        adio.readDataList(new XMLDatastrategy("mapdata.xml", inputStream));
+       // adio.readDataList(new XMLDatastrategy("mapdata.xml", inputStream));
 
-        secondScreenButton.setText("Goto Second Screen");
-        secondScreenButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onClickSecondView(v);
-            }
-        });
-        screenLayout.addView(secondScreenButton);
+        screenLayout.addView(secondScreenButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
     }
 
     public void onClickSecondView(View view) {
-        game.setScreen(new ParkingScreen(game, context));
+        game.setScreen(new AddParkingScreen(game, context));
     }
 
     @Override
