@@ -20,6 +20,8 @@ import java.util.Objects;
 
 import uk.ac.uea.nostromo.mother.DataObject;
 import uk.ac.uea.nostromo.mother.Game;
+import uk.ac.uea.nostromo.mother.Location;
+import uk.ac.uea.nostromo.mother.LocationManager;
 import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.XMLDatastrategy;
 import uk.ac.uea.nostromo.mother.implementation.AndroidDataIO;
@@ -67,6 +69,36 @@ public class AddParkingScreen extends Screen {
         }
 
         carParkName = game.getGraphics().newOptionSpinner("Carpark Name", labels, android.R.layout.simple_spinner_item, null);
+
+        //find nearest car park
+        LocationManager lm = new LocationManager(context);
+        Location realTimeLoc = lm.getCurrentLocation();
+
+        if(realTimeLoc != null){
+            //found position look for nearest
+            double closest = Double.MAX_VALUE;
+            XMLDatastrategy.MapRow defaultCarPark = null;
+            for (XMLDatastrategy.MapRow row : labels) {
+                double xd = realTimeLoc.getLatitude() - row.getLat();
+                double yd = realTimeLoc.getLongitude() - row.getLongitude();
+                double distance = Math.sqrt(xd*xd + yd*yd);
+
+                if(distance < closest){
+                    closest = distance;
+                    defaultCarPark = row;
+                }
+            }
+            if(defaultCarPark != null){
+                Spinner carParkSpinner = (Spinner) carParkName.getChildAt(1);
+                for (int i = 0; i < carParkSpinner.getCount() ; i++) {
+                    if(carParkSpinner.getItemAtPosition(i).toString().equalsIgnoreCase(defaultCarPark.getName())){
+                        carParkSpinner.setSelection(i);
+                        break;
+                    }
+                }
+            }
+        }
+
         timeOfArrival = game.getGraphics().newOptionText("Time of Arrival", currentDateandTime, false);
         zone = game.getGraphics().newOptionText("Zone (optional)", true);
 
