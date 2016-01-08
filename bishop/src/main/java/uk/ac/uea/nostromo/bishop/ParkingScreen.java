@@ -2,6 +2,9 @@ package uk.ac.uea.nostromo.bishop;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
@@ -15,6 +18,7 @@ import android.widget.TextView;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -30,10 +34,11 @@ public class ParkingScreen extends Screen {
     private final TableRow remindMe;
     private final TableRow timeLeft;
     private final TableRow currentTime;
+    private final TableRow currentZone;
 
     TextView title;
 
-    MyCountDownTimer ctimer =  new MyCountDownTimer(10000, 1000) {
+    MyCountDownTimer timer = new MyCountDownTimer(10000, 500) {
         @Override
         public void onTick(long millisUntilFinished) {
             updateTime();
@@ -45,19 +50,7 @@ public class ParkingScreen extends Screen {
         }
     };
 
-    MyCountDownTimer timer = new MyCountDownTimer(10000, 1000) {
-        @Override
-        public void onTick(long millisUntilFinished) {
-            updateTime();
-        }
-
-        @Override
-        public void onFinish() {
-            timer.start();
-        }
-    };
-
-    MyCountDownTimer remindLeft = new MyCountDownTimer(TimeUnit.MINUTES.toMillis(15), 1000) {
+    MyCountDownTimer remindLeft = new MyCountDownTimer(TimeUnit.MINUTES.toMillis(15), 500) {
         @Override
         public void onTick(long millisUntilFinished) {
             long minutes = TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished);
@@ -65,9 +58,11 @@ public class ParkingScreen extends Screen {
         }
 
         @Override
-        public void onFinish() { }
-    }
-            ;
+        public void onFinish() {
+            Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+            Ringtone r = RingtoneManager.getRingtone(context, notification);
+            r.play();}
+    };
 
 
     ParkingScreen(Game game, Context context){
@@ -76,6 +71,7 @@ public class ParkingScreen extends Screen {
         remindLeft.start();
 
         List<String> labels = new ArrayList<>();
+        labels.add("1");
         labels.add("15");
         labels.add("30");
         labels.add("60");
@@ -99,18 +95,15 @@ public class ParkingScreen extends Screen {
 
         timeLeft = game.getGraphics().newOptionText("Remaining Time", true);
         currentTime = game.getGraphics().newOptionText("Current Time", true);
+        currentZone = game.getGraphics().newOptionText("Current Zone", ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_PARKING, ""), true);
 
         screenLayout.addView(remindMe);
         screenLayout.addView(timeLeft);
         screenLayout.addView(currentTime);
-
-
-        title = new TextView(context);
-        title.setTextColor(Color.BLACK);
-        screenLayout.addView(title);
+        screenLayout.addView(currentZone);
 
         Button secondScreenButton = new Button(context);
-        secondScreenButton.setText("Goto Home Screen");
+        secondScreenButton.setText("Goto Car");
         secondScreenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,31 +116,28 @@ public class ParkingScreen extends Screen {
     }
 
     private void updateTime(){
-
-        String currentCarparking = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_PARKING, "not found");
-        String currentZone = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_ZONE, "not found");
-
         String currentTimeHours = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_TOA_HOURS, "not found");
         String currentTimeMinutes = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_TOA_MINUTES, "not found");
 
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-        String currentDateandTime = sdf.format(new Date());
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.HOUR_OF_DAY, Integer.parseInt(currentTimeHours));
+        c.set(Calendar.MINUTE, Integer.parseInt(currentTimeMinutes));
+
+        Calendar now = Calendar.getInstance();
+        now.add(Calendar.HOUR_OF_DAY, -c.get(Calendar.HOUR_OF_DAY));
+        now.add(Calendar.MINUTE, - c.get(Calendar.MINUTE));
 
         long tleftMinutes = TimeUnit.MILLISECONDS.toMinutes(remindLeft.getTimeLeft());
-        long tleftSeconds = TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) - tleftMinutes * 60;
-
-
-        Log.d("DEBUGTEST", "Seconds: " + TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) + " - " + tleftMinutes * 60);
+        long tleftSeconds = (TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) - tleftMinutes * 60) - 1;
 
         ((EditText)timeLeft.getChildAt(1)).setText(tleftMinutes + ":" + tleftSeconds);
 
-        ((EditText)currentTime.getChildAt(1)).setText(currentDateandTime);
-
-        title.setText("Time: " + currentDateandTime + " - Parking: " + currentCarparking + " - Zone: " + currentZone + " - currentTimeHours: " + currentTimeHours + " currentTimeMinutes: " + currentTimeMinutes);
+        ((EditText)currentTime.getChildAt(1)).setText(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
     }
 
     public void onClickSecondView(View view) {
-        game.setScreen(new HomeScreen(game, context));
+        timer.cancel();
+        game.setScreen(new GotoCarScreen(game, context));
     }
 
     @Override
