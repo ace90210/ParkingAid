@@ -12,7 +12,10 @@ import android.widget.TextView;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Comparator;
+import java.util.List;
 
+import uk.ac.uea.nostromo.mother.DataObject;
 import uk.ac.uea.nostromo.mother.ExcelDatastrategy;
 import uk.ac.uea.nostromo.mother.Game;
 import uk.ac.uea.nostromo.mother.Screen;
@@ -33,17 +36,6 @@ public class HomeScreen extends Screen {
                 onClickSecondView(v);
             }
         });
-
-        AndroidDataIO adio = new AndroidDataIO();
-        AssetManager am = context.getAssets();
-        InputStream inputStream = null;
-        try {
-            inputStream = am.open("mapdata.xml");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-       // adio.readDataList(new XMLDatastrategy("mapdata.xml", inputStream));
 
         screenLayout.addView(secondScreenButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
     }

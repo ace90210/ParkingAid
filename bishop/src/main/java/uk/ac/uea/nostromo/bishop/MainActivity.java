@@ -18,6 +18,8 @@ public class MainActivity extends AndroidGame {
     final String CURRENT_TOA_HOURS = "currentTimeOfArrivalHours";
     final String CURRENT_TOA_MINUTES = "currentTimeOfArrivalMinutes";
     final String CURRENT_ZONE = "currentZone";
+    final String CURRENT_LAT = "currentLat";
+    final String CURRENT_LONG = "currentLong";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

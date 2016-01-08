@@ -55,13 +55,16 @@ public class GotoCarScreen extends Screen {
         int height = size.y;
         LinearLayout ll = this.game.getGraphics().newLinearLayout((int)(width * 0.75f), (int)(height * 0.5f));
 
+        final String currentLat = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LAT, "52.621827");
+        final String currentLong = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LONG, "1.239867");
+        final String currentName = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_PARKING, "Unknown");
 
         Graphics.MyGoogleMap map = game.getGraphics().newMap((AndroidGame) game, ll.getId(), new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
-                LatLng UEA = new LatLng(52.621827, 1.239867);
+                LatLng UEA = new LatLng(Double.parseDouble(currentLat), Double.parseDouble(currentLong));
 
-                googleMap.addMarker(new MarkerOptions().title("car park").position(UEA));
+                googleMap.addMarker(new MarkerOptions().title(currentName).position(UEA));
             }
         });
 
