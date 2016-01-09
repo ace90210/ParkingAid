@@ -10,18 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67fbc54-0c5c-40de-adb2-7618cbf11880" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mother" afterPath="$PROJECT_DIR$/Mother" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/AddParkingScreen.java" afterPath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/AddParkingScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/GotoCarScreen.java" afterPath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/GotoCarScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/MainActivity.java" afterPath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingScreen.java" afterPath="$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Software Engineering 2 Projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,40 +76,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddParkingScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddParkingScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/AddParkingScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8454546">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1721#1999#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-                <element signature="e#4211#4358#0" expanded="true" />
-                <element signature="e#4357#4358#0" expanded="true" />
-                <element signature="e#6873#6874#0" expanded="true" />
-                <element signature="e#6934#6935#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/implementation/DatabaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1367#1645#0" expanded="true" />
+                <element signature="e#1644#1645#0" expanded="true" />
+                <element signature="e#3857#4004#0" expanded="true" />
+                <element signature="e#4003#4004#0" expanded="true" />
+                <element signature="e#6519#6520#0" expanded="true" />
+                <element signature="e#6580#6581#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/implementation/AndroidGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.22727273">
               <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
               <folding>
                 <element signature="e#3700#3701#0" expanded="true" />
@@ -149,82 +126,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingRecord.java">
+      <file leaf-file-name="ParkingScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              <folding>
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableDescriptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#5368#5369#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableRowDescriptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableRowDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#776#796#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -243,6 +153,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GotoCarScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/GotoCarScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="98" selection-start-line="68" selection-start-column="98" selection-end-line="68" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/HomeScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#976#1130#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -253,7 +197,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Mother" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -4244,16 +4188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/HomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/DataObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4337,39 +4271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="e#1152#1351#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5368#5369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/GotoCarScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="98" selection-start-line="68" selection-start-column="98" selection-end-line="68" selection-end-column="100" />
-          <folding>
-            <element signature="e#3869#3870#0" expanded="true" />
-            <element signature="e#3933#3934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/LocationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4406,88 +4307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/TableRowDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#776#796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/implementation/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/DataIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4504,29 +4323,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/implementation/AndroidGame.java">
+    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/AddParkingScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding>
-            <element signature="e#3700#3701#0" expanded="true" />
-            <element signature="e#3729#3730#0" expanded="true" />
+            <element signature="e#1367#1645#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#3857#4004#0" expanded="true" />
+            <element signature="e#4003#4004#0" expanded="true" />
+            <element signature="e#6519#6520#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/AddParkingScreen.java">
+    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/GotoCarScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8454546">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="98" selection-start-line="68" selection-start-column="98" selection-end-line="68" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/HomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1721#1999#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#4211#4358#0" expanded="true" />
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6934#6935#0" expanded="true" />
+            <element signature="e#976#1130#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishop/src/main/java/uk/ac/uea/nostromo/bishop/ParkingScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5368#5369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mother/mother/src/main/java/uk/ac/uea/nostromo/mother/implementation/AndroidGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+          <folding>
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#3729#3730#0" expanded="true" />
           </folding>
         </state>
       </provider>

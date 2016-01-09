@@ -2,7 +2,6 @@ package uk.ac.uea.nostromo.bishop;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.res.AssetManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -10,24 +9,17 @@ import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Objects;
 
 import uk.ac.uea.nostromo.mother.DataObject;
 import uk.ac.uea.nostromo.mother.Game;
 import uk.ac.uea.nostromo.mother.Location;
 import uk.ac.uea.nostromo.mother.LocationManager;
 import uk.ac.uea.nostromo.mother.Screen;
-import uk.ac.uea.nostromo.mother.TableDescriptor;
-import uk.ac.uea.nostromo.mother.TableRowDescriptor;
 import uk.ac.uea.nostromo.mother.XMLDatastrategy;
-import uk.ac.uea.nostromo.mother.implementation.AndroidDataIO;
-import uk.ac.uea.nostromo.mother.implementation.DatabaseHandler;
 
 /**
  * Created by Barry on 02/01/2016.
