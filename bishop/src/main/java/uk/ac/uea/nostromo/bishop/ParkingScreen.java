@@ -167,5 +167,6 @@ public class ParkingScreen extends Screen {
 
     @Override
     public void backButton() {
+        game.setScreen(new AddParkingScreen(game, context));
     }
 }

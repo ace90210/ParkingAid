@@ -58,13 +58,15 @@ public class GotoCarScreen extends Screen {
         final String currentLat = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LAT, "52.621827");
         final String currentLong = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LONG, "1.239867");
         final String currentName = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_PARKING, "Unknown");
+        final String currentZone = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_ZONE, "Unknown");
+        final String currentFee = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_FEES, "Unknown");
 
         Graphics.MyGoogleMap map = game.getGraphics().newMap((AndroidGame) game, ll.getId(), new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
-                LatLng UEA = new LatLng(Double.parseDouble(currentLat), Double.parseDouble(currentLong));
+                LatLng carPosition = new LatLng(Double.parseDouble(currentLat), Double.parseDouble(currentLong));
 
-                googleMap.addMarker(new MarkerOptions().title(currentName).position(UEA));
+                googleMap.addMarker(new MarkerOptions().title(currentName).snippet(currentZone + "\n" + currentFee).position(carPosition));
             }
         });
 
@@ -112,5 +114,6 @@ public class GotoCarScreen extends Screen {
 
     @Override
     public void backButton() {
+        game.setScreen(new ParkingScreen(game, context));
     }
 }

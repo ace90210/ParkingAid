@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
@@ -20,13 +22,22 @@ public class MainActivity extends AndroidGame {
     final String CURRENT_ZONE = "currentZone";
     final String CURRENT_LAT = "currentLat";
     final String CURRENT_LONG = "currentLong";
+    final String CURRENT_FEES = "currentFees";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.onCreate(savedInstanceState, R.layout.activity_main, R.id.table_layout);
 
-        parking = getApplicationContext().getSharedPreferences("UEA_PARKING_AID", 0);
+        ImageButton home = (ImageButton)findViewById(R.id.imageButton2);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setScreen(new ParkingScreen(MainActivity.this, getBaseContext()));
+            }
+        });
+
+        parking = getDataIO().getSharedPref("UEA_MAP_DATA", getBaseContext());
     }
 
     @Override

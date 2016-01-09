@@ -23,17 +23,21 @@ import uk.ac.uea.nostromo.mother.Game;
 import uk.ac.uea.nostromo.mother.Location;
 import uk.ac.uea.nostromo.mother.LocationManager;
 import uk.ac.uea.nostromo.mother.Screen;
+import uk.ac.uea.nostromo.mother.TableDescriptor;
+import uk.ac.uea.nostromo.mother.TableRowDescriptor;
 import uk.ac.uea.nostromo.mother.XMLDatastrategy;
 import uk.ac.uea.nostromo.mother.implementation.AndroidDataIO;
+import uk.ac.uea.nostromo.mother.implementation.DatabaseHandler;
 
 /**
  * Created by Barry on 02/01/2016.
  */
 public class AddParkingScreen extends Screen {
 
-    TableRow carParkName;
-    TableRow timeOfArrival;
-    TableRow zone;
+    private final TableRow carParkName;
+    private final TableRow timeOfArrival;
+    private final TableRow zone;
+    private final TableRow fee;
 
     AddParkingScreen(Game game, Context context){
         super(game, context);
@@ -41,18 +45,10 @@ public class AddParkingScreen extends Screen {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         String currentDateandTime = sdf.format(new Date());
 
+        //load map data
+        DataObject<XMLDatastrategy.MapRow> mapData = game.getDataIO().readDataList(new XMLDatastrategy("mapdata.xml", context));
 
-        AndroidDataIO adio = new AndroidDataIO();
-        AssetManager am = context.getAssets();
-        InputStream inputStream = null;
-        try {
-            inputStream = am.open("mapdata.xml");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        DataObject<XMLDatastrategy.MapRow> mapData = adio.readDataList(new XMLDatastrategy("mapdata.xml", inputStream));
-
+        //filter by car parks
         DataObject<XMLDatastrategy.MapRow> carParks = mapData.search(new Comparable<XMLDatastrategy.MapRow>() {
             @Override
             public int compareTo(XMLDatastrategy.MapRow another) {
@@ -62,12 +58,14 @@ public class AddParkingScreen extends Screen {
             }
         });
 
+        //convert into list
         List<XMLDatastrategy.MapRow> labels = new ArrayList<>();
         for (DataObject mr : carParks ) {
             Log.d("DEBUG", "added Car Park: " + ((XMLDatastrategy.MapRow)((DataObject)mr.getData()).getData()).getDescription());
             labels.add(((XMLDatastrategy.MapRow)((DataObject)mr.getData()).getData()));
         }
 
+        //create car park name row (spinner selection)
         carParkName = game.getGraphics().newOptionSpinner("Carpark Name", labels, android.R.layout.simple_spinner_item, null);
 
         //find nearest car park
@@ -99,9 +97,12 @@ public class AddParkingScreen extends Screen {
             }
         }
 
+        //create time of arrival and zone rows (read only time of arrival)
         timeOfArrival = game.getGraphics().newOptionText("Time of Arrival", currentDateandTime, false);
         zone = game.getGraphics().newOptionText("Zone (optional)", true);
+        fee = game.getGraphics().newOptionText("Fee (Per Hour)", true);
 
+        //create add button to progress to next screen
         TableRow addButton = game.getGraphics().newButton("Add", context, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,6 +110,7 @@ public class AddParkingScreen extends Screen {
             }
         });
 
+        //set margin on top of add button
         TableLayout.LayoutParams lp = (TableLayout.LayoutParams)addButton.getLayoutParams();
         lp.topMargin = 30;
 
@@ -117,6 +119,7 @@ public class AddParkingScreen extends Screen {
         screenLayout.addView(zone);
         screenLayout.addView(addButton);
     }
+
     public void onClickAdd(View view) {
         SharedPreferences.Editor editor = ((MainActivity)game).parking.edit();
 
@@ -128,6 +131,7 @@ public class AddParkingScreen extends Screen {
         editor.putString(((MainActivity)game).CURRENT_ZONE, getSettingFromTableRow(editor, zone));
         editor.putString(((MainActivity)game).CURRENT_LAT, String.valueOf(getSettingFromSpinner(editor, carParkName).getLat()));
         editor.putString(((MainActivity)game).CURRENT_LONG, String.valueOf(getSettingFromSpinner(editor, carParkName).getLongitude()));
+        editor.putString(((MainActivity)game).CURRENT_FEES, getSettingFromTableRow(editor, fee));
 
         editor.apply();
 
@@ -145,8 +149,6 @@ public class AddParkingScreen extends Screen {
         }
         return selectedItem;
     }
-
-
 
     private  XMLDatastrategy.MapRow getSettingFromSpinner(SharedPreferences.Editor editor, TableRow tr){
         Object o = tr.getChildAt(1);
@@ -184,5 +186,6 @@ public class AddParkingScreen extends Screen {
 
     @Override
     public void backButton() {
+        game.setScreen(new HomeScreen(game, context));
     }
 }
