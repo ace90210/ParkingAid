@@ -44,9 +44,11 @@ import uk.ac.uea.nostromo.mother.implementation.MyCountDownTimer;
  * Created by Barry on 02/01/2016.
  */
 public class GotoCarScreen extends Screen {
+    private ParkingRecord record;
 
-    GotoCarScreen(Game game, final Context context){
+    GotoCarScreen(Game game, final Context context, ParkingRecord record){
         super(game, context);
+        this.record = record;
 
         Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
         Point size = new Point();
@@ -72,18 +74,21 @@ public class GotoCarScreen extends Screen {
 
         screenLayout.addView(ll);
 
-        Button secondScreenButton = new Button(context);
-        secondScreenButton.setText("Done");
-        secondScreenButton.setOnClickListener(new View.OnClickListener() {
+        Button doneButton = new Button(context);
+        doneButton.setText("Done");
+        doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onClickSecondView(v);
+                onClickDoneView(v);
             }
         });
-        screenLayout.addView(secondScreenButton);
+        screenLayout.addView(doneButton);
     }
 
-    public void onClickSecondView(View view) {
+    public void onClickDoneView(View view) {
+        Calendar now  = Calendar.getInstance();
+        record.setEndTime(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
+        ((MainActivity)game).prdh.updateParkingRecord(record);
         game.setScreen(new HomeScreen(game, context));
     }
 
@@ -114,6 +119,6 @@ public class GotoCarScreen extends Screen {
 
     @Override
     public void backButton() {
-        game.setScreen(new ParkingScreen(game, context));
+        game.setScreen(new ParkingScreen(game, context, record));
     }
 }

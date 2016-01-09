@@ -109,6 +109,7 @@ public class AddParkingScreen extends Screen {
         screenLayout.addView(carParkName);
         screenLayout.addView(timeOfArrival);
         screenLayout.addView(zone);
+        screenLayout.addView(fee);
         screenLayout.addView(addButton);
     }
 
@@ -124,10 +125,20 @@ public class AddParkingScreen extends Screen {
         editor.putString(((MainActivity)game).CURRENT_LAT, String.valueOf(getSettingFromSpinner(editor, carParkName).getLat()));
         editor.putString(((MainActivity)game).CURRENT_LONG, String.valueOf(getSettingFromSpinner(editor, carParkName).getLongitude()));
         editor.putString(((MainActivity)game).CURRENT_FEES, getSettingFromTableRow(editor, fee));
-
         editor.apply();
 
-        game.setScreen(new ParkingScreen(game, context));
+        //save to database
+        ParkingRecord pr = new ParkingRecord(
+                getSettingFromTableRow(editor, carParkName),
+                getSettingFromTableRow(editor, zone),
+                getSettingFromTableRow(editor, fee),
+                getSettingFromTableRow(editor, timeOfArrival),
+                null);
+
+
+        ((MainActivity)game).prdh.addRecord(pr);
+
+        game.setScreen(new ParkingScreen(game, context, pr));
     }
 
     private String getSettingFromTableRow(SharedPreferences.Editor editor, TableRow tr){

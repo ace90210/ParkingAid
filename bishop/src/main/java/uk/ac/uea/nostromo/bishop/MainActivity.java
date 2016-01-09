@@ -16,6 +16,9 @@ import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
 public class MainActivity extends AndroidGame {
     SharedPreferences parking;
 
+
+    ParkingRecordDatabaseHandler prdh;
+
     final String CURRENT_PARKING = "currentParkingName";
     final String CURRENT_TOA_HOURS = "currentTimeOfArrivalHours";
     final String CURRENT_TOA_MINUTES = "currentTimeOfArrivalMinutes";
@@ -27,13 +30,14 @@ public class MainActivity extends AndroidGame {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        prdh = new ParkingRecordDatabaseHandler(getBaseContext());
         super.onCreate(savedInstanceState, R.layout.activity_main, R.id.table_layout);
 
-        ImageButton home = (ImageButton)findViewById(R.id.imageButton2);
+        ImageButton home = (ImageButton)findViewById(R.id.imageButton);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setScreen(new ParkingScreen(MainActivity.this, getBaseContext()));
+                setScreen(new HomeScreen(MainActivity.this, getBaseContext()));
             }
         });
 
@@ -73,5 +77,10 @@ public class MainActivity extends AndroidGame {
             System.out.print(exs);
         }
         return null;
+    }
+
+    @Override
+    public void onBackPressed(){
+        getCurrentScreen().backButton();
     }
 }

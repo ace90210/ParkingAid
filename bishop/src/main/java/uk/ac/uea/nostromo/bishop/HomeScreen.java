@@ -26,22 +26,59 @@ import uk.ac.uea.nostromo.mother.implementation.AndroidDataIO;
  * Created by Barry on 02/01/2016.
  */
 public class HomeScreen extends Screen {
+    private List<ParkingRecord> existingRecords;
 
-    HomeScreen(Game game, Context context){
+    HomeScreen(Game game, final Context context){
         super(game, context);
 
-        TableRow secondScreenButton =  game.getGraphics().newButton("Parking", context, new View.OnClickListener() {
+        TableRow parkingButton =  game.getGraphics().newButton("Start", context, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onClickSecondView(v);
+                onClickParkingView(v);
             }
         });
 
-        screenLayout.addView(secondScreenButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
+        screenLayout.addView(parkingButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
+
+        TableRow label = game.getGraphics().newTextView("Previous Records",context);
+        //TableRow label = game.getGraphics().newTextView("Previous Records", false, true, true);
+
+        screenLayout.addView(label, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
+
+        existingRecords = ((MainActivity)game).prdh.getAllRecords();
+
+        final MainActivity mainActivity = (MainActivity)game;
+        for (ParkingRecord pr : existingRecords) {
+            TableRow record = game.getGraphics().newOptionText(pr.getParkName(), "z: " + pr.getZone() + " a: " + pr.getStartTime(), false);
+
+            final ParkingRecord prf = pr;
+            record.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mainActivity.setScreen(new ParkingScreen(mainActivity, context, prf));
+                }
+            });
+            screenLayout.addView(record);
+        }
     }
 
-    public void onClickSecondView(View view) {
-        game.setScreen(new AddParkingScreen(game, context));
+    public void onClickParkingView(View view) {
+        ParkingRecord existingRecord = null;
+
+        if(existingRecords != null) {
+            //check if existing incomplete parking record present
+            for (ParkingRecord pr : existingRecords) {
+                if (pr.getEndTime() == null) {
+                    existingRecord = pr;
+                    break;
+                }
+            }
+        }
+
+        if(existingRecord != null)
+            game.setScreen(new ParkingScreen(game, context, existingRecord));
+        else
+            game.setScreen(new AddParkingScreen(game, context));
     }
 
     @Override
@@ -71,5 +108,7 @@ public class HomeScreen extends Screen {
 
     @Override
     public void backButton() {
+        ((MainActivity)game).finish();
+        System.exit(0);
     }
 }

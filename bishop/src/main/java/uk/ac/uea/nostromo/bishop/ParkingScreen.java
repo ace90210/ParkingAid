@@ -31,43 +31,67 @@ import uk.ac.uea.nostromo.mother.implementation.MyCountDownTimer;
  * Created by Barry on 02/01/2016.
  */
 public class ParkingScreen extends Screen {
-    private final TableRow remindMe;
-    private final TableRow timeLeft;
-    private final TableRow currentTime;
-    private final TableRow currentZone;
+    private final ParkingRecord record;
+
+    private TableRow remindMe = null;
+    private TableRow timeLeft = null;
+
+    private TableRow currentPark = null;
+    private TableRow currentZone = null;
+    private TableRow startTime = null;
+    private TableRow endTime = null;
+    private TableRow currentFee = null;
 
     TextView title;
 
-    MyCountDownTimer timer = new MyCountDownTimer(10000, 500) {
-        @Override
-        public void onTick(long millisUntilFinished) {
-            updateTime();
-        }
+    MyCountDownTimer timer = null;
 
-        @Override
-        public void onFinish() {
-            timer.start();
-        }
-    };
-
-    MyCountDownTimer remindLeft = new MyCountDownTimer(TimeUnit.MINUTES.toMillis(15), 500) {
-        @Override
-        public void onTick(long millisUntilFinished) {
-            long minutes = TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished);
-            Log.d("DEBUGTEST", "minutes: " + minutes);
-        }
-
-        @Override
-        public void onFinish() {
-            Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-            Ringtone r = RingtoneManager.getRingtone(context, notification);
-            r.play();}
-    };
+    MyCountDownTimer remindLeft = null;
 
 
-    ParkingScreen(Game game, Context context){
+    ParkingScreen(Game game, Context context, ParkingRecord record){
         super(game, context);
+        this.record = record;
+
+        //if current record (no end time) show goto car, else show delete record button and end time)
+        if(record.getEndTime() == null){
+            generateCurrentView();
+        }
+        else {
+            generateRecordView();
+        }
+
+
+        updateTime();
+    }
+
+    private void generateCurrentView(){
+        timer = new MyCountDownTimer(10000, 500) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                updateTime();
+            }
+
+            @Override
+            public void onFinish() {
+                timer.start();
+            }
+        };
         timer.start();
+
+        remindLeft = new MyCountDownTimer(TimeUnit.MINUTES.toMillis(15), 500) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                long minutes = TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished);
+                Log.d("DEBUGTEST", "minutes: " + minutes);
+            }
+
+            @Override
+            public void onFinish() {
+                Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+                Ringtone r = RingtoneManager.getRingtone(context, notification);
+                r.play();}
+        };
         remindLeft.start();
 
         List<String> labels = new ArrayList<>();
@@ -84,40 +108,68 @@ public class ParkingScreen extends Screen {
                 int r = Integer.parseInt((String)((Spinner)remindMe.getChildAt(1)).getSelectedItem());
 
                 Log.d("DEBUGTEST", "Remind Selection Changed");
-                remindLeft.resetTimer(TimeUnit.MINUTES.toMillis(r));
+                if(remindLeft != null)
+                    remindLeft.resetTimer(TimeUnit.MINUTES.toMillis(r));
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
+            public void onNothingSelected(AdapterView<?> parent) { }
         });
-
         timeLeft = game.getGraphics().newOptionText("Remaining Time", true);
-        currentTime = game.getGraphics().newOptionText("Current Time", true);
-        currentZone = game.getGraphics().newOptionText("Current Zone", ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_PARKING, ""), true);
 
+
+        currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
+        currentZone = game.getGraphics().newOptionText("Current Zone", record.getZone(), true);
+        startTime = game.getGraphics().newOptionText("Current Time", true);
+
+        screenLayout.addView(currentPark);
+        screenLayout.addView(startTime);
+        screenLayout.addView(currentZone);
         screenLayout.addView(remindMe);
         screenLayout.addView(timeLeft);
-        screenLayout.addView(currentTime);
-        screenLayout.addView(currentZone);
 
-        Button secondScreenButton = new Button(context);
-        secondScreenButton.setText("Goto Car");
-        secondScreenButton.setOnClickListener(new View.OnClickListener() {
+        Button gotoCarButton = new Button(context);
+        gotoCarButton.setText("Goto Car");
+        gotoCarButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onClickSecondView(v);
+                onClickGotocarView(v);
             }
         });
-        screenLayout.addView(secondScreenButton);
+        screenLayout.addView(gotoCarButton);
+    }
 
-        updateTime();
+    private void generateRecordView(){
+        currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
+        currentZone = game.getGraphics().newOptionText("Zone", record.getZone(), true);
+        startTime = game.getGraphics().newOptionText("Start Time",record.getStartTime(),  false);
+        endTime = game.getGraphics().newOptionText("End Time",record.getEndTime(),  false);
+        currentFee = game.getGraphics().newOptionText("Fee",record.getFee(),  false);
+
+        screenLayout.addView(currentPark);
+        screenLayout.addView(currentZone);
+        screenLayout.addView(startTime);
+        screenLayout.addView(endTime);
+        screenLayout.addView(currentFee);
+
+        final MainActivity mainActivity = (MainActivity)game;
+        Button deleteButton = new Button(context);
+        deleteButton.setText("Delete!");
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mainActivity.prdh.deleteParkingRecord(record);
+
+                mainActivity.setScreen(new HomeScreen(mainActivity, context));
+            }
+        });
+        screenLayout.addView(deleteButton);
     }
 
     private void updateTime(){
-        String currentTimeHours = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_TOA_HOURS, "not found");
-        String currentTimeMinutes = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_TOA_MINUTES, "not found");
+        String[] TOA = record.getStartTime().split(":");
+        String currentTimeHours = TOA[0];
+        String currentTimeMinutes = TOA[1];
 
         Calendar c = Calendar.getInstance();
         c.set(Calendar.HOUR_OF_DAY, Integer.parseInt(currentTimeHours));
@@ -127,17 +179,24 @@ public class ParkingScreen extends Screen {
         now.add(Calendar.HOUR_OF_DAY, -c.get(Calendar.HOUR_OF_DAY));
         now.add(Calendar.MINUTE, - c.get(Calendar.MINUTE));
 
-        long tleftMinutes = TimeUnit.MILLISECONDS.toMinutes(remindLeft.getTimeLeft());
-        long tleftSeconds = (TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) - tleftMinutes * 60) - 1;
 
-        ((EditText)timeLeft.getChildAt(1)).setText(tleftMinutes + ":" + tleftSeconds);
+        if(remindLeft != null) {
+            long tleftMinutes = TimeUnit.MILLISECONDS.toMinutes(remindLeft.getTimeLeft());
+            long tleftSeconds = (TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) - tleftMinutes * 60) - 1;
 
-        ((EditText)currentTime.getChildAt(1)).setText(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
+            ((EditText) timeLeft.getChildAt(1)).setText(tleftMinutes + ":" + tleftSeconds);
+        }
+
+        ((EditText)startTime.getChildAt(1)).setText(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
     }
 
-    public void onClickSecondView(View view) {
-        timer.cancel();
-        game.setScreen(new GotoCarScreen(game, context));
+    public void onClickGotocarView(View view) {
+        if(timer != null)
+            timer.cancel();
+        if(remindLeft != null)
+            remindLeft.cancel();
+
+        game.setScreen(new GotoCarScreen(game, context, record));
     }
 
     @Override
@@ -162,11 +221,14 @@ public class ParkingScreen extends Screen {
 
     @Override
     public void dispose() {
-
+        if(timer != null)
+            timer.cancel();
+        if(remindLeft != null)
+            remindLeft.cancel();
     }
 
     @Override
     public void backButton() {
-        game.setScreen(new AddParkingScreen(game, context));
+        game.setScreen(new HomeScreen(game, context));
     }
 }
