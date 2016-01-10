@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-b70e5ff26bb20121935421839109db083126ac18.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-5b36b50b76419a4ca18ff710024330dfb4d40ccf.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-3eca2d71906770525e1dd63bc54ff3df28dca368.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-91fe88e907c59fa9d0f9fbd57824511cf0ae650b.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-be928d1290bed85975317ee8ac95f43a806f02a1.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-88e1937c04f0c966263ed7b5a3c04f6512684924.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-bb35b0b014a29f7a14ae1818151e2404731c894a.jar" />
+    </item>
+    <item
+        jar="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\exploded-aar\Software Engineering 2 Projects.Mother\mother\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b2ed495a48a4395395e3e9824b428b93404652b">
+        <dex dex="H:\Users\Barry\Documents\Software Engineering 2 Projects\bishop\build\intermediates\pre-dexed\debug\classes-728cbc7e64349657c2b5a4584fae2807d47afc47.jar" />
+    </item>
+
+</items>

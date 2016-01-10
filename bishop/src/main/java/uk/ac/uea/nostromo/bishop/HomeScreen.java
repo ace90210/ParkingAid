@@ -47,18 +47,24 @@ public class HomeScreen extends Screen {
 
         existingRecords = ((MainActivity)game).prdh.getAllRecords();
 
+
+        String filterText = ((MainActivity)game).filterTextView != null ? ((MainActivity)game).filterTextView.getText().toString() : null;
+
         final MainActivity mainActivity = (MainActivity)game;
         for (ParkingRecord pr : existingRecords) {
-            TableRow record = game.getGraphics().newOptionText(pr.getParkName(), "z: " + pr.getZone() + " a: " + pr.getStartTime(), false);
+            TableRow record = game.getGraphics().newOptionText(pr.getParkName() + " - " + pr.getZone(), "fee: " + pr.getFee(), false);
 
-            final ParkingRecord prf = pr;
-            record.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    mainActivity.setScreen(new ParkingScreen(mainActivity, context, prf));
-                }
-            });
-            screenLayout.addView(record);
+            if(filterText == null || filterText == "" || (filterText != null && pr.getParkName().toLowerCase().contains(filterText.toLowerCase()))) {
+                final ParkingRecord prf = pr;
+                record.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mainActivity.setScreen(new ParkingScreen(mainActivity, context, prf));
+                    }
+                });
+
+                screenLayout.addView(record);
+            }
         }
     }
 

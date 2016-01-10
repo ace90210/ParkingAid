@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
@@ -15,7 +17,8 @@ import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
 
 public class MainActivity extends AndroidGame {
     SharedPreferences parking;
-
+    EditText filterTextView;
+    ImageButton search;
 
     ParkingRecordDatabaseHandler prdh;
 
@@ -34,9 +37,21 @@ public class MainActivity extends AndroidGame {
         super.onCreate(savedInstanceState, R.layout.activity_main, R.id.table_layout);
 
         ImageButton home = (ImageButton)findViewById(R.id.imageButton);
+        filterTextView = (EditText)findViewById(R.id.textView);
+        search = (ImageButton)findViewById(R.id.imageButton2);
+
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setScreen(new HomeScreen(MainActivity.this, getBaseContext()));
+            }
+        });
+
+        final EditText filterTextViewFinal = filterTextView;
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                filterTextViewFinal.setText("");
                 setScreen(new HomeScreen(MainActivity.this, getBaseContext()));
             }
         });
