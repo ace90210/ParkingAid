@@ -1,1 +1,5 @@
 bishop/build/
+.idea/
+local.properties
+.gradle/
+build/

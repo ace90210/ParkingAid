@@ -1,26 +1,12 @@
 package uk.ac.uea.nostromo.bishop;
 
 import android.content.Context;
-import android.content.res.AssetManager;
-import android.graphics.Color;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TableLayout;
 import android.widget.TableRow;
-import android.widget.TextView;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Comparator;
 import java.util.List;
 
-import uk.ac.uea.nostromo.mother.DataObject;
-import uk.ac.uea.nostromo.mother.ExcelDatastrategy;
 import uk.ac.uea.nostromo.mother.Game;
 import uk.ac.uea.nostromo.mother.Screen;
-import uk.ac.uea.nostromo.mother.XMLDatastrategy;
-import uk.ac.uea.nostromo.mother.implementation.AndroidDataIO;
 
 /**
  * Created by Barry on 02/01/2016.
@@ -41,7 +27,6 @@ public class HomeScreen extends Screen {
         screenLayout.addView(parkingButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
 
         TableRow label = game.getGraphics().newTextView("Previous Records",context);
-        //TableRow label = game.getGraphics().newTextView("Previous Records", false, true, true);
 
         screenLayout.addView(label, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
 

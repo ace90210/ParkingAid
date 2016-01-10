@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import uk.ac.uea.nostromo.mother.DataObject;
 import uk.ac.uea.nostromo.mother.Game;
@@ -34,7 +35,7 @@ public class AddParkingScreen extends Screen {
     AddParkingScreen(Game game, Context context){
         super(game, context);
 
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm", Locale.UK);
         String currentDateandTime = sdf.format(new Date());
 
         //load map data

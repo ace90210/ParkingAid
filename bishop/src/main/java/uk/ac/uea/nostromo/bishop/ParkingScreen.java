@@ -129,7 +129,7 @@ public class ParkingScreen extends Screen {
         screenLayout.addView(timeLeft);
 
         Button gotoCarButton = new Button(context);
-        gotoCarButton.setText("Goto Car");
+        gotoCarButton.setText(R.string.gotocar);
         gotoCarButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -154,7 +154,7 @@ public class ParkingScreen extends Screen {
 
         final MainActivity mainActivity = (MainActivity)game;
         Button deleteButton = new Button(context);
-        deleteButton.setText("Delete!");
+        deleteButton.setText(R.string.deleteLabel);
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

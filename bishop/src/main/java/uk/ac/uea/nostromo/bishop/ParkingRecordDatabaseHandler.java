@@ -93,7 +93,7 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
                 cursor.getString(4), //end time
                 cursor.getString(5) //fee
         );
-
+        cursor.close();
         return pr;
     }
 
@@ -122,7 +122,7 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
 
             } while (cursor.moveToNext());
         }
-
+        cursor.close();
         // return contact list
         return prList;
     }

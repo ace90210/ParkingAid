@@ -75,7 +75,7 @@ public class GotoCarScreen extends Screen {
         screenLayout.addView(ll);
 
         Button doneButton = new Button(context);
-        doneButton.setText("Done");
+        doneButton.setText(R.string.done);
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
