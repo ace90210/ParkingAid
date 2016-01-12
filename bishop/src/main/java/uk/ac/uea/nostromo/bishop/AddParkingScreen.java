@@ -1,13 +1,17 @@
 package uk.ac.uea.nostromo.bishop;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.support.v7.app.AlertDialog;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -61,9 +65,13 @@ public class AddParkingScreen extends Screen {
         //create car park name row (spinner selection)
         carParkName = game.getGraphics().newOptionSpinner("Carpark Name", labels, android.R.layout.simple_spinner_item, null);
 
-        //find nearest car park
-        LocationManager lm = new LocationManager(context);
-        Location realTimeLoc = lm.getCurrentLocation();
+        Location realTimeLoc = new Location(52.622940, 1.240962);
+        try {
+            //find nearest car park
+            LocationManager lm = new LocationManager(context);
+            realTimeLoc = lm.getCurrentLocation();
+        }
+        catch (NullPointerException ex){ /*handle no gps available*/ }
 
         if(realTimeLoc != null){
             //found position look for nearest
@@ -94,6 +102,8 @@ public class AddParkingScreen extends Screen {
         timeOfArrival = game.getGraphics().newOptionText("Time of Arrival", currentDateandTime, false);
         zone = game.getGraphics().newOptionText("Zone (optional)", true);
         fee = game.getGraphics().newOptionText("Fee (Per Hour)", true);
+
+        ((TextView)fee.getChildAt(1)).setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
 
         //create add button to progress to next screen
         TableRow addButton = game.getGraphics().newButton("Add", context, new View.OnClickListener() {

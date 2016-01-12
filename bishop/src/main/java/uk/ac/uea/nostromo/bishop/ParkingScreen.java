@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 import uk.ac.uea.nostromo.mother.Game;
@@ -120,7 +121,7 @@ public class ParkingScreen extends Screen {
 
         currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
         currentZone = game.getGraphics().newOptionText("Current Zone", record.getZone(), true);
-        startTime = game.getGraphics().newOptionText("Current Time", true);
+        startTime = game.getGraphics().newOptionText("Time Parked", true);
 
         screenLayout.addView(currentPark);
         screenLayout.addView(startTime);
@@ -184,10 +185,14 @@ public class ParkingScreen extends Screen {
             long tleftMinutes = TimeUnit.MILLISECONDS.toMinutes(remindLeft.getTimeLeft());
             long tleftSeconds = (TimeUnit.MILLISECONDS.toSeconds(remindLeft.getTimeLeft()) - tleftMinutes * 60) - 1;
 
-            ((EditText) timeLeft.getChildAt(1)).setText(tleftMinutes + ":" + tleftSeconds);
+            if(tleftSeconds < 0){
+                tleftSeconds = 0;
+            }
+
+            ((EditText) timeLeft.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d" ,tleftMinutes, tleftSeconds));
         }
 
-        ((EditText)startTime.getChildAt(1)).setText(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
+        ((EditText)startTime.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d", now.get(Calendar.HOUR_OF_DAY), now.get(Calendar.MINUTE)));
     }
 
     public void onClickGotocarView(View view) {

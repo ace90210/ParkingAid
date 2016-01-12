@@ -63,14 +63,16 @@ public class GotoCarScreen extends Screen {
         final String currentZone = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_ZONE, "Unknown");
         final String currentFee = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_FEES, "Unknown");
 
+        final LatLng carPosition = new LatLng(Double.parseDouble(currentLat), Double.parseDouble(currentLong));
         Graphics.MyGoogleMap map = game.getGraphics().newMap((AndroidGame) game, ll.getId(), new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
-                LatLng carPosition = new LatLng(Double.parseDouble(currentLat), Double.parseDouble(currentLong));
 
                 googleMap.addMarker(new MarkerOptions().title(currentName).snippet(currentZone + "\n" + currentFee).position(carPosition));
             }
         });
+        map.setTargetLocation(carPosition);
+
 
         screenLayout.addView(ll);
 

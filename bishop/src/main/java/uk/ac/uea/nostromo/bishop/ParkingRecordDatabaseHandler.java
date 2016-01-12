@@ -45,6 +45,7 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
         CREATE_CONTACTS_TABLE.append(KEY_FEE + " TEXT)");
 
         db.execSQL(CREATE_CONTACTS_TABLE.toString());
+        db.close();
     }
 
     @Override
@@ -58,6 +59,7 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
+
         values.put(KEY_NAME, record.getParkName());
         values.put(KEY_ZONE, record.getZone());
         values.put(KEY_START_TIME, record.getStartTime());
@@ -132,10 +134,10 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
 
         String countQuery = "SELECT  * FROM " + TABLE_PARKING_RECORDS;
         Cursor cursor = db.rawQuery(countQuery, null);
-
+        int count = cursor.getCount();
         cursor.close();
 
-        return cursor.getCount();
+        return count;
     }
 
     public int updateParkingRecord(ParkingRecord record){
@@ -148,9 +150,12 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_END_TIME, record.getEndTime());
         values.put(KEY_FEE, record.getFee());
 
-        // updating row
-        return db.update(TABLE_PARKING_RECORDS, values, KEY_ID + " = ?",
+        int result = db.update(TABLE_PARKING_RECORDS, values, KEY_ID + " = ?",
                 new String[] { String.valueOf(record.get_id()) });
+        db.close();
+
+        // updating row
+        return result;
     }
 
     public void deleteParkingRecord(ParkingRecord record){
