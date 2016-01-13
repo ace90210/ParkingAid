@@ -30,6 +30,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 import uk.ac.uea.nostromo.mother.Game;
@@ -55,7 +56,7 @@ public class GotoCarScreen extends Screen {
         display.getSize(size);
         int width = size.x;
         int height = size.y;
-        LinearLayout ll = this.game.getGraphics().newLinearLayout((int)(width * 0.75f), (int)(height * 0.5f));
+        LinearLayout ll = this.game.getGraphics().newLinearLayout((int)(width * 0.9), (int)(height * 0.5f));
 
         final String currentLat = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LAT, "52.621827");
         final String currentLong = ((MainActivity)game).parking.getString(((MainActivity)game).CURRENT_LONG, "1.239867");
@@ -76,20 +77,18 @@ public class GotoCarScreen extends Screen {
 
         screenLayout.addView(ll);
 
-        Button doneButton = new Button(context);
-        doneButton.setText(R.string.done);
-        doneButton.setOnClickListener(new View.OnClickListener() {
+        TableRow doneButton = game.getGraphics().newButton("Done", context, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickDoneView(v);
             }
-        });
+        }, 30);
         screenLayout.addView(doneButton);
     }
 
     public void onClickDoneView(View view) {
         Calendar now  = Calendar.getInstance();
-        record.setEndTime(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
+        record.setEndTime(String.format(Locale.UK, "%02d:%02d", now.get(Calendar.HOUR_OF_DAY), now.get(Calendar.MINUTE)));
         ((MainActivity)game).prdh.updateParkingRecord(record);
         game.setScreen(new HomeScreen(game, context));
     }

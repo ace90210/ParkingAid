@@ -45,7 +45,6 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
         CREATE_CONTACTS_TABLE.append(KEY_FEE + " TEXT)");
 
         db.execSQL(CREATE_CONTACTS_TABLE.toString());
-        db.close();
     }
 
     @Override
@@ -67,7 +66,10 @@ public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_FEE, record.getFee());
 
         // Inserting Row
-        db.insert(TABLE_PARKING_RECORDS, null, values);
+        long id = db.insert(TABLE_PARKING_RECORDS, null, values);
+        if(id >= 0){
+            record.set_id((int)id);
+        }
         db.close(); // Closing database connection
     }
 

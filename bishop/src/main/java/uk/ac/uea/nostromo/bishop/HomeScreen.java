@@ -26,12 +26,13 @@ public class HomeScreen extends Screen {
 
         screenLayout.addView(parkingButton, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
 
-        TableRow label = game.getGraphics().newTextView("Previous Records",context);
-
-        screenLayout.addView(label, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
-
         existingRecords = ((MainActivity)game).prdh.getAllRecords();
 
+        if(existingRecords != null && existingRecords.size() > 0) {
+            TableRow label = game.getGraphics().newTextView("Previous Records", context);
+
+            screenLayout.addView(label, TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
+        }
 
         String filterText = ((MainActivity)game).filterTextView != null ? ((MainActivity)game).filterTextView.getText().toString() : null;
 
@@ -39,7 +40,10 @@ public class HomeScreen extends Screen {
         for (ParkingRecord pr : existingRecords) {
             TableRow record = game.getGraphics().newOptionText(pr.getParkName() + " - " + pr.getZone(), "fee: " + pr.getFee(), false);
 
-            if(filterText == null || filterText == "" || (filterText != null && pr.getParkName().toLowerCase().contains(filterText.toLowerCase()))) {
+            if  (
+                    filterText == null || filterText == "" || (filterText != null &&
+                    (pr.getParkName().toLowerCase().contains(filterText.toLowerCase())) || pr.getZone().toLowerCase().contains(filterText.toLowerCase()))
+                ) {
                 final ParkingRecord prf = pr;
                 record.setOnClickListener(new View.OnClickListener() {
                     @Override

@@ -101,7 +101,7 @@ public class AddParkingScreen extends Screen {
         //create time of arrival and zone rows (read only time of arrival)
         timeOfArrival = game.getGraphics().newOptionText("Time of Arrival", currentDateandTime, false);
         zone = game.getGraphics().newOptionText("Zone (optional)", true);
-        fee = game.getGraphics().newOptionText("Fee (Per Hour)", true);
+        fee = game.getGraphics().newOptionText("Fee (Per Hour)", "1.00", true);
 
         ((TextView)fee.getChildAt(1)).setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
 
