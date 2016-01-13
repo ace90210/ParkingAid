@@ -29,7 +29,12 @@ import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.implementation.MyCountDownTimer;
 
 /**
- * Created by Barry on 02/01/2016.
+ * ParkingScreen displays current parking record info.
+ * For new/incomplete parking records a reminder option is available.
+ *
+ * @author    {Barry Wright}
+ * @version    v1.0.0
+ * @since    v1.0.0-alpha+20160112
  */
 public class ParkingScreen extends Screen {
     private final ParkingRecord record;

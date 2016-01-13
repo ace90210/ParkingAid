@@ -1,7 +1,11 @@
 package uk.ac.uea.nostromo.bishop;
 
 /**
- * Created by Barry on 09/01/2016.
+ * ParkingRecord java bean representing a parking record object
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
  */
 public class ParkingRecord {
     int _id;

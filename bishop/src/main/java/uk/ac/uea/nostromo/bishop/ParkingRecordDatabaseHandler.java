@@ -9,6 +9,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ParkingRecordDatabaseHandler database input/output handler for {ParkingRecord}s.
+ * Includes basic CRUD operations.
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
+ */
 public class ParkingRecordDatabaseHandler extends SQLiteOpenHelper {
     // All Static variables
     // Database Version

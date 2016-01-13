@@ -42,7 +42,12 @@ import uk.ac.uea.nostromo.mother.implementation.Graphics;
 import uk.ac.uea.nostromo.mother.implementation.MyCountDownTimer;
 
 /**
- * Created by Barry on 02/01/2016.
+ * GotoCarScreen Shows google map with destination and options for directions using built in google maps features.
+ * also allows for record to be saved by clicking done
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
  */
 public class GotoCarScreen extends Screen {
     private ParkingRecord record;

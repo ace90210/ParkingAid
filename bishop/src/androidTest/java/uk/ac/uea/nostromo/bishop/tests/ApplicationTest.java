@@ -17,7 +17,11 @@ import uk.ac.uea.nostromo.bishop.R;
 import uk.ac.uea.nostromo.mother.implementation.Graphics;
 
 /**
- * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+ * ApplicationTest Designed to perform unit tests on framework within application
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
  */
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {

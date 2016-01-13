@@ -27,7 +27,11 @@ import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.XMLDatastrategy;
 
 /**
- * Created by Barry on 02/01/2016.
+ * AddParkingScreen Add Parking form for starting a new parking record
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
  */
 public class AddParkingScreen extends Screen {
 

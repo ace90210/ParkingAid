@@ -9,7 +9,12 @@ import uk.ac.uea.nostromo.mother.Game;
 import uk.ac.uea.nostromo.mother.Screen;
 
 /**
- * Created by Barry on 02/01/2016.
+ * HomeScreen Shows list of prevoius parking records and a start button to create a new record.
+ * pressing an existing record opens up its stored details
+ *
+ * @author    {Barry Wright}
+ * @version    v1.0.0
+ * @since    v1.0.0-alpha+20160112
  */
 public class HomeScreen extends Screen {
     private List<ParkingRecord> existingRecords;

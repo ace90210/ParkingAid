@@ -14,7 +14,13 @@ import android.widget.TextView;
 import uk.ac.uea.nostromo.mother.Screen;
 import uk.ac.uea.nostromo.mother.implementation.AndroidGame;
 
-
+/**
+ * MainActivity main activity that initilisises teh application and stores app wide objects.
+ *
+ * @author	{Barry Wright}
+ * @version	v1.0.0
+ * @since	v1.0.0-alpha+20160112
+ */
 public class MainActivity extends AndroidGame {
     SharedPreferences parking;
     EditText filterTextView;
