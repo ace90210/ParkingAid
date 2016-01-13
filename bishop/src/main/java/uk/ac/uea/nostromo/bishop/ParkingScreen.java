@@ -1,25 +1,19 @@
 package uk.ac.uea.nostromo.bishop;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
-import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import java.sql.Time;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
@@ -46,6 +40,7 @@ public class ParkingScreen extends Screen {
     private TableRow currentZone = null;
     private TableRow startTime = null;
     private TableRow endTime = null;
+    private TableRow currentPrice = null;
     private TableRow currentFee = null;
 
     TextView title;
@@ -124,11 +119,12 @@ public class ParkingScreen extends Screen {
         });
         timeLeft = game.getGraphics().newOptionText("Remaining Time", true);
 
-
+        currentPrice = game.getGraphics().newOptionText("Current Price", record.getFee(), false);
         currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
         currentZone = game.getGraphics().newOptionText("Current Zone", record.getZone(), false);
         startTime = game.getGraphics().newOptionText("Time Parked", false);
 
+        screenLayout.addView(currentPrice);
         screenLayout.addView(currentPark);
         screenLayout.addView(startTime);
         screenLayout.addView(currentZone);
@@ -149,13 +145,20 @@ public class ParkingScreen extends Screen {
         currentZone = game.getGraphics().newOptionText("Zone", record.getZone(), false);
         startTime = game.getGraphics().newOptionText("Start Time",record.getStartTime(),  false);
         endTime = game.getGraphics().newOptionText("End Time",record.getEndTime(),  false);
-        currentFee = game.getGraphics().newOptionText("Fee",record.getFee(),  false);
+        Calendar period = getTimeDiffernce(record.startTime, record.endTime);
 
+        if(record.getFee() != null && !record.getFee().toString() .equalsIgnoreCase("")) {
+            double feeValue = Double.parseDouble(record.getFee());
+            int hours = period.get(Calendar.HOUR_OF_DAY);
+            currentFee = game.getGraphics().newOptionText("Fee", String.valueOf(feeValue * hours), false);
+        }
         screenLayout.addView(currentPark);
         screenLayout.addView(currentZone);
         screenLayout.addView(startTime);
         screenLayout.addView(endTime);
-        screenLayout.addView(currentFee);
+
+        if(currentFee != null)
+            screenLayout.addView(currentFee);
 
         final MainActivity mainActivity = (MainActivity)game;
 
@@ -168,6 +171,42 @@ public class ParkingScreen extends Screen {
             }
         }, 30);
         screenLayout.addView(deleteButton);
+    }
+
+    private Calendar getTimeDiffernce(Calendar c, Calendar c2){
+        long diffInMillis = 0;
+
+        if(c2.getTime().getTime() > c.getTime().getTime()) {
+            diffInMillis = c2.getTime().getTime() - c.getTime().getTime();
+        }
+        else{
+            diffInMillis = c.getTime().getTime() - c2.getTime().getTime();
+        }
+
+        Calendar result = Calendar.getInstance();
+        result.setTimeInMillis(diffInMillis);
+        return result;
+    }
+
+    private Calendar getTimeDiffernce(String time1, String time2){
+        String[] s1 = time1.split(":");
+        String[] s2= time2.split(":");
+        String s1Hours = s1[0];
+        String s1Minutes = s1[1];
+
+        String s2Hours = s2[0];
+        String s2Minutes = s2[1];
+
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.HOUR_OF_DAY, Integer.parseInt(s1Hours));
+        c.set(Calendar.MINUTE, Integer.parseInt(s1Minutes));
+
+        Calendar c2 = Calendar.getInstance();
+
+        c2.set(Calendar.HOUR_OF_DAY, Integer.parseInt(s2Hours));
+        c2.set(Calendar.MINUTE, Integer.parseInt(s2Minutes));
+
+        return getTimeDiffernce(c, c2);
     }
 
     private void updateTime(){
@@ -192,9 +231,17 @@ public class ParkingScreen extends Screen {
                 tleftSeconds = 0;
             }
 
-            ((EditText) timeLeft.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d" ,tleftMinutes, tleftSeconds));
+            ((EditText)timeLeft.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d" ,tleftMinutes, tleftSeconds));
 
             ((EditText)startTime.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d", now.get(Calendar.HOUR_OF_DAY), now.get(Calendar.MINUTE)));
+
+            if(record.getFee() != null && !record.getFee().toString().equalsIgnoreCase("") && currentPrice != null) {
+
+                double feeValue = Double.parseDouble(record.getFee());
+                int hours = now.get(Calendar.HOUR_OF_DAY) + 1;
+
+                ((EditText) currentPrice.getChildAt(1)).setText(String.format(Locale.UK, "%6.2f", feeValue * hours));
+            }
         }
     }
 
