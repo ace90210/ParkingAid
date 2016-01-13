@@ -106,22 +106,23 @@ public class ParkingScreen extends Screen {
         remindMe = game.getGraphics().newOptionSpinner("Remind Me (mins)", labels, android.R.layout.simple_spinner_item, new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                int r = Integer.parseInt((String)((Spinner)remindMe.getChildAt(1)).getSelectedItem());
+                int r = Integer.parseInt((String) ((Spinner) remindMe.getChildAt(1)).getSelectedItem());
 
                 Log.d("DEBUGTEST", "Remind Selection Changed");
-                if(remindLeft != null)
+                if (remindLeft != null)
                     remindLeft.resetTimer(TimeUnit.MINUTES.toMillis(r));
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) { }
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
         });
         timeLeft = game.getGraphics().newOptionText("Remaining Time", true);
 
 
         currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
-        currentZone = game.getGraphics().newOptionText("Current Zone", record.getZone(), true);
-        startTime = game.getGraphics().newOptionText("Time Parked", true);
+        currentZone = game.getGraphics().newOptionText("Current Zone", record.getZone(), false);
+        startTime = game.getGraphics().newOptionText("Time Parked", false);
 
         screenLayout.addView(currentPark);
         screenLayout.addView(startTime);
@@ -129,20 +130,18 @@ public class ParkingScreen extends Screen {
         screenLayout.addView(remindMe);
         screenLayout.addView(timeLeft);
 
-        Button gotoCarButton = new Button(context);
-        gotoCarButton.setText(R.string.gotocar);
-        gotoCarButton.setOnClickListener(new View.OnClickListener() {
+        TableRow gotoCarButton = game.getGraphics().newButton("Go to car", context, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickGotocarView(v);
             }
-        });
+        }, 30);
         screenLayout.addView(gotoCarButton);
     }
 
     private void generateRecordView(){
         currentPark = game.getGraphics().newOptionText("Car Park", record.getParkName(), false);
-        currentZone = game.getGraphics().newOptionText("Zone", record.getZone(), true);
+        currentZone = game.getGraphics().newOptionText("Zone", record.getZone(), false);
         startTime = game.getGraphics().newOptionText("Start Time",record.getStartTime(),  false);
         endTime = game.getGraphics().newOptionText("End Time",record.getEndTime(),  false);
         currentFee = game.getGraphics().newOptionText("Fee",record.getFee(),  false);
@@ -154,16 +153,15 @@ public class ParkingScreen extends Screen {
         screenLayout.addView(currentFee);
 
         final MainActivity mainActivity = (MainActivity)game;
-        Button deleteButton = new Button(context);
-        deleteButton.setText(R.string.deleteLabel);
-        deleteButton.setOnClickListener(new View.OnClickListener() {
+
+        TableRow deleteButton = game.getGraphics().newButton("Delete!", context, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mainActivity.prdh.deleteParkingRecord(record);
 
                 mainActivity.setScreen(new HomeScreen(mainActivity, context));
             }
-        });
+        }, 30);
         screenLayout.addView(deleteButton);
     }
 
@@ -190,9 +188,9 @@ public class ParkingScreen extends Screen {
             }
 
             ((EditText) timeLeft.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d" ,tleftMinutes, tleftSeconds));
-        }
 
-        ((EditText)startTime.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d", now.get(Calendar.HOUR_OF_DAY), now.get(Calendar.MINUTE)));
+            ((EditText)startTime.getChildAt(1)).setText(String.format(Locale.UK, "%02d:%02d", now.get(Calendar.HOUR_OF_DAY), now.get(Calendar.MINUTE)));
+        }
     }
 
     public void onClickGotocarView(View view) {
